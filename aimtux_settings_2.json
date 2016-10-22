@@ -1,0 +1,392 @@
+{
+   "Aimbot" : {
+      "AimStep" : {
+         "enabled" : false,
+         "value" : 25
+      },
+      "AutoAim" : {
+         "enabled" : true
+      },
+      "AutoCrouch" : {
+         "enabled" : false
+      },
+      "AutoShoot" : {
+         "autoscope" : false,
+         "enabled" : true
+      },
+      "AutoStop" : {
+         "enabled" : false
+      },
+      "AutoWall" : {
+         "enabled" : true,
+         "value" : 3.5416667461395264
+      },
+      "RCS" : {
+         "enabled" : true
+      },
+      "Smooth" : {
+         "enabled" : false,
+         "value" : 1
+      },
+      "aimkey" : 109,
+      "bone" : 6,
+      "enabled" : true,
+      "errorMargin" : 0,
+      "fov" : 180,
+      "friendly" : false,
+      "silent" : true
+   },
+   "Airstuck" : {
+      "enabled" : false,
+      "key" : 16
+   },
+   "AntiAim" : {
+      "enabled_X" : true,
+      "enabled_Y" : true,
+      "type_X" : 1,
+      "type_Y" : 4
+   },
+   "AutoStrafe" : {
+      "enabled" : true
+   },
+   "BHop" : {
+      "enabled" : true
+   },
+   "ClanTagChanger" : {
+      "animation" : true,
+      "enabled" : true,
+      "value" : ""
+   },
+   "Dlights" : {
+      "ally_color" : {
+         "a" : 255,
+         "b" : 200,
+         "g" : 50,
+         "r" : 0
+      },
+      "enabled" : false,
+      "enemy_color" : {
+         "a" : 255,
+         "b" : 50,
+         "g" : 0,
+         "r" : 200
+      },
+      "radius" : 500
+   },
+   "ESP" : {
+      "Bomb" : {
+         "enabled" : true
+      },
+      "Bones" : {
+         "enabled" : false
+      },
+      "Chams" : {
+         "arms" : true,
+         "arms_color" : {
+            "a" : 255,
+            "b" : 73,
+            "g" : 43,
+            "r" : 117
+         },
+         "players" : true,
+         "players_ally_color" : {
+            "a" : 255,
+            "b" : 168,
+            "g" : 98,
+            "r" : 7
+         },
+         "players_enemy_color" : {
+            "a" : 255,
+            "b" : 28,
+            "g" : 24,
+            "r" : 243
+         },
+         "players_enemy_visible_color" : {
+            "a" : 255,
+            "b" : 20,
+            "g" : 159,
+            "r" : 243
+         },
+         "rainbow_arms" : true,
+         "type" : 0,
+         "visibility_check" : false
+      },
+      "FOVCrosshair" : {
+         "enabled" : false
+      },
+      "Glow" : {
+         "ally_color" : {
+            "a" : 0,
+            "b" : 200,
+            "g" : 50,
+            "r" : 0
+         },
+         "enabled" : false,
+         "enemy_color" : {
+            "a" : 0,
+            "b" : 50,
+            "g" : 0,
+            "r" : 200
+         },
+         "enemy_visible_color" : {
+            "a" : 0,
+            "b" : 50,
+            "g" : 200,
+            "r" : 200
+         },
+         "weapon_color" : {
+            "a" : 200,
+            "b" : 50,
+            "g" : 0,
+            "r" : 200
+         }
+      },
+      "Info" : {
+         "showHealth" : true,
+         "showName" : true
+      },
+      "Tracer" : {
+         "enabled" : false,
+         "type" : 0
+      },
+      "Walls" : {
+         "enabled" : true,
+         "type" : 0
+      },
+      "Weapons" : {
+         "enabled" : false
+      },
+      "ally_color" : {
+         "a" : 255,
+         "b" : 200,
+         "g" : 50,
+         "r" : 0
+      },
+      "bomb_color" : {
+         "a" : 255,
+         "b" : 50,
+         "g" : 0,
+         "r" : 200
+      },
+      "bones_color" : {
+         "a" : 255,
+         "b" : 255,
+         "g" : 255,
+         "r" : 255
+      },
+      "enabled" : true,
+      "enemy_color" : {
+         "a" : 255,
+         "b" : 50,
+         "g" : 0,
+         "r" : 200
+      },
+      "enemy_visible_color" : {
+         "a" : 255,
+         "b" : 50,
+         "g" : 200,
+         "r" : 200
+      },
+      "visibility_check" : false
+   },
+   "NameChanger" : {
+      "enabled" : true,
+      "last_blank" : true
+   },
+   "Noflash" : {
+      "enabled" : true,
+      "value" : 160
+   },
+   "Recoilcrosshair" : {
+      "enabled" : false
+   },
+   "ShowRanks" : {
+      "enabled" : true
+   },
+   "ShowSpectators" : {
+      "enabled" : true
+   },
+   "Skinchanger" : {
+      "enabled" : true,
+      "skins" : {
+         "1" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 277,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "16" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 512,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "2" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 249,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "3" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 252,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "30" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 179,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "38" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 391,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "4" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 38,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "40" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 319,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "42" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : 508,
+            "Model" : "",
+            "PaintKit" : 417,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "507" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : 507,
+            "Model" : "models/weapons/v_knife_karam.mdl",
+            "PaintKit" : 417,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "508" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : 508,
+            "Model" : "models/weapons/v_knife_m9_bay.mdl",
+            "PaintKit" : 417,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "59" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : 507,
+            "Model" : "",
+            "PaintKit" : 417,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "60" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 548,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "61" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 332,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "7" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 524,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "9" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : -1,
+            "Model" : "",
+            "PaintKit" : 344,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         }
+      }
+   },
+   "Spammer" : {
+      "KillSpammer" : {
+         "enabled" : true,
+         "message" : "$nick just got OWNED by AimTux!!"
+      },
+      "NormalSpammer" : {
+         "enabled" : false
+      },
+      "PositionSpammer" : {
+         "enabled" : false
+      }
+   },
+   "Triggerbot" : {
+      "Delay" : {
+         "enabled" : false,
+         "value" : 250
+      },
+      "Filter" : {
+         "arms" : false,
+         "chest" : false,
+         "friendly" : false,
+         "head" : false,
+         "legs" : false,
+         "stomach" : true
+      },
+      "enabled" : false,
+      "key" : 81
+   },
+   "UI" : {
+      "Fonts" : {
+         "ESP" : {
+            "family" : "Andale Mono",
+            "size" : 20
+         },
+         "Normal" : {
+            "family" : "Arial",
+            "size" : 17
+         },
+         "Title" : {
+            "family" : "Arial",
+            "size" : 20
+         }
+      },
+      "mainColor" : {
+         "a" : 255,
+         "b" : 100,
+         "g" : 100,
+         "r" : 255
+      }
+   }
+}
