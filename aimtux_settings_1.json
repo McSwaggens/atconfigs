@@ -189,6 +189,10 @@
       },
       "visibility_check" : true
    },
+   "NameChanger" : {
+      "enabled" : false,
+      "last_blank" : true
+   },
    "Noflash" : {
       "enabled" : true,
       "value" : 160
@@ -342,6 +346,9 @@
       },
       "NormalSpammer" : {
          "enabled" : false
+      },
+      "PositionSpammer" : {
+         "enabled" : false
       }
    },
    "Triggerbot" : {
@@ -374,6 +381,12 @@
             "family" : "Arial",
             "size" : 20
          }
+      },
+      "mainColor" : {
+         "a" : 255,
+         "b" : 110,
+         "g" : 90,
+         "r" : 110
       }
    }
 }
