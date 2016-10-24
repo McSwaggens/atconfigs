@@ -18,6 +18,7 @@
          "enabled" : false
       },
       "AutoWall" : {
+         "bones" : [ 6, 0 ],
          "enabled" : true,
          "value" : 3.5416667461395264
       },
