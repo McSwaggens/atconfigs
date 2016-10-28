@@ -2,7 +2,7 @@
    "Aimbot" : {
       "AimStep" : {
          "enabled" : false,
-         "value" : 0.74844074249267578
+         "value" : 0.37422037124633789
       },
       "AutoAim" : {
          "enabled" : true
@@ -18,6 +18,7 @@
          "enabled" : false
       },
       "AutoWall" : {
+         "bones" : [],
          "enabled" : false,
          "value" : 10
       },
@@ -25,14 +26,19 @@
          "enabled" : true
       },
       "Smooth" : {
+         "Salting" : {
+            "enabled" : true,
+            "percentage" : 2.5404157638549805
+         },
          "enabled" : true,
-         "value" : 1.8636734485626221
+         "value" : 15
       },
       "aimkey" : 109,
+      "aimkey_only" : false,
       "bone" : 5,
       "enabled" : true,
-      "errorMargin" : 0,
-      "fov" : 1.875,
+      "errorMargin" : 0.068852461874485016,
+      "fov" : 10.5,
       "friendly" : false,
       "silent" : false
    },
@@ -88,7 +94,8 @@
             "g" : 43,
             "r" : 117
          },
-         "players" : true,
+         "no_arms" : false,
+         "players" : false,
          "players_ally_color" : {
             "a" : 255,
             "b" : 168,
@@ -109,10 +116,11 @@
          },
          "rainbow_arms" : false,
          "type" : 0,
-         "visibility_check" : true
+         "visibility_check" : false,
+         "wireframe_arms" : false
       },
       "FOVCrosshair" : {
-         "enabled" : true
+         "enabled" : false
       },
       "Glow" : {
          "ally_color" : {
@@ -142,8 +150,8 @@
          }
       },
       "Info" : {
-         "showHealth" : true,
-         "showName" : true
+         "showHealth" : false,
+         "showName" : false
       },
       "Tracer" : {
          "enabled" : false,
@@ -187,7 +195,13 @@
          "g" : 200,
          "r" : 200
       },
-      "visibility_check" : true
+      "visibility_check" : false
+   },
+   "FOVChanger" : {
+      "enabled" : true,
+      "value" : 100.20618438720703,
+      "viewmodel_enabled" : true,
+      "viewmodel_value" : 94.479644775390625
    },
    "NameChanger" : {
       "enabled" : false,
@@ -198,7 +212,7 @@
       "value" : 160
    },
    "Recoilcrosshair" : {
-      "enabled" : true
+      "enabled" : false
    },
    "ShowRanks" : {
       "enabled" : true
