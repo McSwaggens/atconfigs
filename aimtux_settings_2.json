@@ -18,9 +18,9 @@
          "enabled" : false
       },
       "AutoWall" : {
-         "bones" : [ 6, 0 ],
+         "bones" : [ 6, 0, 1, 2, 3, 4, 5 ],
          "enabled" : true,
-         "value" : 3.5416667461395264
+         "value" : 0.2083333432674408
       },
       "RCS" : {
          "enabled" : true
@@ -30,6 +30,7 @@
          "value" : 1
       },
       "aimkey" : 109,
+      "aimkey_only" : false,
       "bone" : 6,
       "enabled" : true,
       "errorMargin" : 0,
@@ -89,6 +90,7 @@
             "g" : 43,
             "r" : 117
          },
+         "no_arms" : false,
          "players" : true,
          "players_ally_color" : {
             "a" : 255,
@@ -110,7 +112,8 @@
          },
          "rainbow_arms" : true,
          "type" : 0,
-         "visibility_check" : false
+         "visibility_check" : false,
+         "wireframe_arms" : false
       },
       "FOVCrosshair" : {
          "enabled" : false
@@ -190,9 +193,15 @@
       },
       "visibility_check" : false
    },
-   "NameChanger" : {
+   "FOVChanger" : {
       "enabled" : true,
-      "last_blank" : true
+      "value" : 120.98969268798828,
+      "viewmodel_enabled" : true,
+      "viewmodel_value" : 108.32579803466797
+   },
+   "NameChanger" : {
+      "enabled" : false,
+      "last_blank" : false
    },
    "Noflash" : {
       "enabled" : true,
