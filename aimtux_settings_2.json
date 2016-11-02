@@ -10,6 +10,9 @@
       "AutoCrouch" : {
          "enabled" : false
       },
+      "AutoPistol" : {
+         "enabled" : false
+      },
       "AutoShoot" : {
          "autoscope" : false,
          "enabled" : true
@@ -20,12 +23,17 @@
       "AutoWall" : {
          "bones" : [ 6, 0, 1, 2, 3, 4, 5 ],
          "enabled" : true,
-         "value" : 0.2083333432674408
+         "value" : 0.16260161995887756
       },
       "RCS" : {
-         "enabled" : true
+         "enabled" : true,
+         "value" : 2
       },
       "Smooth" : {
+         "Salting" : {
+            "enabled" : true,
+            "percentage" : 2.0785219669342041
+         },
          "enabled" : false,
          "value" : 1
       },
@@ -199,6 +207,9 @@
       "viewmodel_enabled" : true,
       "viewmodel_value" : 108.32579803466797
    },
+   "FakeLag" : {
+      "enabled" : false
+   },
    "NameChanger" : {
       "enabled" : false,
       "last_blank" : false
@@ -206,6 +217,9 @@
    "Noflash" : {
       "enabled" : true,
       "value" : 160
+   },
+   "Radar" : {
+      "enabled" : false
    },
    "Recoilcrosshair" : {
       "enabled" : false
@@ -361,6 +375,10 @@
          "enabled" : false
       }
    },
+   "Teleport" : {
+      "enabled" : false,
+      "key" : 82
+   },
    "Triggerbot" : {
       "Delay" : {
          "enabled" : false,
@@ -394,9 +412,9 @@
       },
       "mainColor" : {
          "a" : 255,
-         "b" : 110,
-         "g" : 90,
-         "r" : 110
+         "b" : 120,
+         "g" : 100,
+         "r" : 100
       }
    }
 }
