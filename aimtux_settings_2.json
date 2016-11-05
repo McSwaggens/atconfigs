@@ -54,7 +54,7 @@
       "enabled_X" : true,
       "enabled_Y" : true,
       "type_X" : 1,
-      "type_Y" : 4
+      "type_Y" : 6
    },
    "AutoStrafe" : {
       "enabled" : true
