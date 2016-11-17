@@ -2,7 +2,7 @@
    "Aimbot" : {
       "AimStep" : {
          "enabled" : false,
-         "value" : 0.37422037124633789
+         "value" : 16.99110221862793
       },
       "AutoAim" : {
          "enabled" : true
@@ -31,30 +31,33 @@
       },
       "Smooth" : {
          "Salting" : {
-            "enabled" : true,
-            "percentage" : 2.0785219669342041
+            "enabled" : false,
+            "percentage" : 0.071174107491970062
          },
          "enabled" : true,
-         "value" : 13.50999927520752
+         "value" : 0.70213520526885986
       },
-      "aimkey" : 109,
+      "aimkey" : "MOUSE3",
       "aimkey_only" : false,
       "bone" : 5,
       "enabled" : true,
-      "errorMargin" : 0.042622949928045273,
-      "fov" : 10.5,
+      "errorMargin" : 0,
+      "fov" : 7.0462632179260254,
       "friendly" : false,
       "silent" : false
    },
    "Airstuck" : {
       "enabled" : false,
-      "key" : 16
+      "key" : "f"
    },
    "AntiAim" : {
       "enabled_X" : false,
       "enabled_Y" : false,
       "type_X" : 1,
       "type_Y" : 1
+   },
+   "AutoAccept" : {
+      "enabled" : false
    },
    "AutoStrafe" : {
       "enabled" : true
@@ -91,14 +94,16 @@
          "enabled" : false
       },
       "Chams" : {
-         "arms" : false,
-         "arms_color" : {
-            "a" : 255,
-            "b" : 73,
-            "g" : 43,
-            "r" : 117
+         "Arms" : {
+            "color" : {
+               "a" : 255,
+               "b" : 73,
+               "g" : 43,
+               "r" : 117
+            },
+            "enabled" : false,
+            "type" : 0
          },
-         "no_arms" : false,
          "players" : false,
          "players_ally_color" : {
             "a" : 255,
@@ -118,13 +123,11 @@
             "g" : 159,
             "r" : 243
          },
-         "rainbow_arms" : false,
          "type" : 0,
-         "visibility_check" : false,
-         "wireframe_arms" : false
+         "visibility_check" : false
       },
       "FOVCrosshair" : {
-         "enabled" : false
+         "enabled" : true
       },
       "Glow" : {
          "ally_color" : {
@@ -154,8 +157,28 @@
          }
       },
       "Info" : {
+         "ally_color" : {
+            "a" : 255,
+            "b" : 200,
+            "g" : 50,
+            "r" : 0
+         },
+         "colorCode" : false,
+         "enemy_color" : {
+            "a" : 255,
+            "b" : 50,
+            "g" : 0,
+            "r" : 200
+         },
+         "enemy_visible_color" : {
+            "a" : 255,
+            "b" : 50,
+            "g" : 200,
+            "r" : 200
+         },
          "showHealth" : false,
-         "showName" : false
+         "showName" : false,
+         "showWeapon" : false
       },
       "Tracer" : {
          "enabled" : false,
@@ -199,6 +222,8 @@
          "g" : 200,
          "r" : 200
       },
+      "friendly" : true,
+      "show_scope_border" : true,
       "visibility_check" : false
    },
    "FOVChanger" : {
@@ -233,131 +258,147 @@
    "Skinchanger" : {
       "enabled" : true,
       "skins" : {
-         "1" : {
+         "WEAPON_AK47" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 277,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "16" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 512,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "2" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 249,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "3" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 252,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "30" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 179,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "38" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 391,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "4" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 38,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "40" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 319,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "42" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : 508,
-            "Model" : "",
-            "PaintKit" : 417,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "507" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : 507,
-            "Model" : "models/weapons/v_knife_karam.mdl",
-            "PaintKit" : 417,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "508" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : 508,
-            "Model" : "models/weapons/v_knife_m9_bay.mdl",
-            "PaintKit" : 417,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "59" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : 507,
-            "Model" : "",
-            "PaintKit" : 417,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "60" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 548,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "61" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
-            "Model" : "",
-            "PaintKit" : 332,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
-         },
-         "7" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
+            "ItemDefinitionIndex" : "ITEM_INVALID",
             "Model" : "",
             "PaintKit" : 524,
+            "Seed" : 0,
             "StatTrak" : 1337,
             "Wear" : 0.00050000002374872565
          },
-         "9" : {
+         "WEAPON_AWP" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : -1,
+            "ItemDefinitionIndex" : "ITEM_INVALID",
             "Model" : "",
             "PaintKit" : 344,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_DEAGLE" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 277,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_ELITE" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 249,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_FIVESEVEN" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 252,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_GLOCK" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 38,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_KNIFE" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
+            "Model" : "",
+            "PaintKit" : 12,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.017437499016523361
+         },
+         "WEAPON_KNIFE_KARAMBIT" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
+            "Model" : "models/weapons/v_knife_karam.mdl",
+            "PaintKit" : 417,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_KNIFE_M9_BAYONET" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_M9_BAYONET",
+            "Model" : "models/weapons/v_knife_m9_bay.mdl",
+            "PaintKit" : 417,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_KNIFE_T" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
+            "Model" : "",
+            "PaintKit" : 12,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.017437499016523361
+         },
+         "WEAPON_M4A1" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 512,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_M4A1_SILENCER" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 548,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_SCAR20" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 391,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_SSG08" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 319,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_TEC9" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 179,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_USP_SILENCER" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 332,
+            "Seed" : 0,
             "StatTrak" : 1337,
             "Wear" : 0.00050000002374872565
          }
@@ -393,20 +434,28 @@
          "stomach" : true
       },
       "enabled" : true,
-      "key" : 107
+      "key" : "ALT"
    },
    "UI" : {
       "Fonts" : {
          "ESP" : {
             "family" : "Andale Mono",
+            "flags" : 528,
             "size" : 20
+         },
+         "Mono" : {
+            "family" : "DejaVu Sans Mono",
+            "flags" : 144,
+            "size" : 17
          },
          "Normal" : {
             "family" : "Arial",
+            "flags" : 144,
             "size" : 17
          },
          "Title" : {
             "family" : "Arial",
+            "flags" : 144,
             "size" : 20
          }
       },
@@ -415,6 +464,11 @@
          "b" : 181,
          "g" : 135,
          "r" : 91
+      }
+   },
+   "View" : {
+      "NoPunch" : {
+         "enabled" : false
       }
    }
 }
