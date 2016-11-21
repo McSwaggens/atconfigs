@@ -2,7 +2,7 @@
    "Aimbot" : {
       "AimStep" : {
          "enabled" : false,
-         "value" : 16.99110221862793
+         "value" : 25
       },
       "AutoAim" : {
          "enabled" : true
@@ -15,15 +15,15 @@
       },
       "AutoShoot" : {
          "autoscope" : false,
-         "enabled" : false
+         "enabled" : true
       },
       "AutoStop" : {
          "enabled" : false
       },
       "AutoWall" : {
-         "bones" : [],
-         "enabled" : false,
-         "value" : 10
+         "bones" : [ 6, 0, 1, 2, 3, 4, 5 ],
+         "enabled" : true,
+         "value" : 0.16260161995887756
       },
       "RCS" : {
          "enabled" : true,
@@ -31,30 +31,30 @@
       },
       "Smooth" : {
          "Salting" : {
-            "enabled" : false,
-            "percentage" : 0.071174107491970062
+            "enabled" : true,
+            "percentage" : 2.0785219669342041
          },
-         "enabled" : true,
-         "value" : 0.70213520526885986
+         "enabled" : false,
+         "value" : 1
       },
       "aimkey" : "MOUSE3",
       "aimkey_only" : false,
-      "bone" : 5,
+      "bone" : 6,
       "enabled" : true,
       "errorMargin" : 0,
-      "fov" : 7.0462632179260254,
+      "fov" : 180,
       "friendly" : false,
-      "silent" : false
+      "silent" : true
    },
    "Airstuck" : {
       "enabled" : false,
       "key" : "f"
    },
    "AntiAim" : {
-      "enabled_X" : false,
-      "enabled_Y" : false,
+      "enabled_X" : true,
+      "enabled_Y" : true,
       "type_X" : 1,
-      "type_Y" : 1
+      "type_Y" : 6
    },
    "AutoAccept" : {
       "enabled" : false
@@ -66,9 +66,9 @@
       "enabled" : true
    },
    "ClanTagChanger" : {
-      "animation" : false,
+      "animation" : true,
       "enabled" : true,
-      "value" : "AimTux"
+      "value" : ""
    },
    "Dlights" : {
       "ally_color" : {
@@ -101,10 +101,10 @@
                "g" : 43,
                "r" : 117
             },
-            "enabled" : false,
+            "enabled" : true,
             "type" : 0
          },
-         "players" : false,
+         "players" : true,
          "players_ally_color" : {
             "a" : 255,
             "b" : 168,
@@ -127,7 +127,7 @@
          "visibility_check" : false
       },
       "FOVCrosshair" : {
-         "enabled" : true
+         "enabled" : false
       },
       "Glow" : {
          "ally_color" : {
@@ -176,8 +176,8 @@
             "g" : 200,
             "r" : 200
          },
-         "showHealth" : false,
-         "showName" : false,
+         "showHealth" : true,
+         "showName" : true,
          "showWeapon" : false
       },
       "Tracer" : {
@@ -185,7 +185,7 @@
          "type" : 0
       },
       "Walls" : {
-         "enabled" : false,
+         "enabled" : true,
          "type" : 0
       },
       "Weapons" : {
@@ -228,16 +228,16 @@
    },
    "FOVChanger" : {
       "enabled" : true,
-      "value" : 100.20618438720703,
+      "value" : 120.98969268798828,
       "viewmodel_enabled" : true,
-      "viewmodel_value" : 94.479644775390625
+      "viewmodel_value" : 108.32579803466797
    },
    "FakeLag" : {
       "enabled" : false
    },
    "NameChanger" : {
       "enabled" : false,
-      "last_blank" : true
+      "last_blank" : false
    },
    "Noflash" : {
       "enabled" : true,
@@ -247,7 +247,8 @@
       "enabled" : false
    },
    "Recoilcrosshair" : {
-      "enabled" : false
+      "enabled" : false,
+      "showOnlyWhenShooting" : false
    },
    "ShowRanks" : {
       "enabled" : true
@@ -314,9 +315,9 @@
          },
          "WEAPON_KNIFE" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_BAYONET",
             "Model" : "",
-            "PaintKit" : 12,
+            "PaintKit" : 93,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.017437499016523361
@@ -340,13 +341,13 @@
             "Wear" : 0.00050000002374872565
          },
          "WEAPON_KNIFE_T" : {
-            "CustomName" : "",
+            "CustomName" : "AimTux",
             "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
             "Model" : "",
-            "PaintKit" : 12,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.017437499016523361
+            "PaintKit" : 417,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
          },
          "WEAPON_M4A1" : {
             "CustomName" : "AimTux",
@@ -406,7 +407,7 @@
    },
    "Spammer" : {
       "KillSpammer" : {
-         "enabled" : false,
+         "enabled" : true,
          "message" : "$nick just got OWNED by AimTux!!"
       },
       "NormalSpammer" : {
@@ -426,14 +427,14 @@
          "value" : 250
       },
       "Filter" : {
-         "arms" : true,
-         "chest" : true,
+         "arms" : false,
+         "chest" : false,
          "friendly" : false,
-         "head" : true,
-         "legs" : true,
+         "head" : false,
+         "legs" : false,
          "stomach" : true
       },
-      "enabled" : true,
+      "enabled" : false,
       "key" : "ALT"
    },
    "UI" : {
@@ -461,9 +462,9 @@
       },
       "mainColor" : {
          "a" : 255,
-         "b" : 181,
-         "g" : 135,
-         "r" : 91
+         "b" : 120,
+         "g" : 100,
+         "r" : 100
       }
    },
    "View" : {

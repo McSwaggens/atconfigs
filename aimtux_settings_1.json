@@ -247,7 +247,8 @@
       "enabled" : false
    },
    "Recoilcrosshair" : {
-      "enabled" : false
+      "enabled" : false,
+      "showOnlyWhenShooting" : false
    },
    "ShowRanks" : {
       "enabled" : true
@@ -314,9 +315,9 @@
          },
          "WEAPON_KNIFE" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_BAYONET",
             "Model" : "",
-            "PaintKit" : 12,
+            "PaintKit" : 93,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.017437499016523361
@@ -341,9 +342,9 @@
          },
          "WEAPON_KNIFE_T" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_BAYONET",
             "Model" : "",
-            "PaintKit" : 12,
+            "PaintKit" : 93,
             "Seed" : -1,
             "StatTrak" : -1,
             "Wear" : 0.017437499016523361
