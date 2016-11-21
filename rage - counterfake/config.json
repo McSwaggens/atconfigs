@@ -14,14 +14,14 @@
          "enabled" : false
       },
       "AutoShoot" : {
-         "autoscope" : false,
+         "autoscope" : true,
          "enabled" : true
       },
       "AutoStop" : {
          "enabled" : false
       },
       "AutoWall" : {
-         "bones" : [ 6, 0, 1, 2, 3, 4, 5 ],
+         "bones" : [ 6, 1, 2, 3, 4, 5 ],
          "enabled" : true,
          "value" : 0.16260161995887756
       },
@@ -39,7 +39,7 @@
       },
       "aimkey" : "MOUSE3",
       "aimkey_only" : false,
-      "bone" : 6,
+      "bone" : 5,
       "enabled" : true,
       "errorMargin" : 0,
       "fov" : 180,
@@ -54,7 +54,7 @@
       "enabled_X" : true,
       "enabled_Y" : true,
       "type_X" : 1,
-      "type_Y" : 6
+      "type_Y" : 7
    },
    "AutoAccept" : {
       "enabled" : false
@@ -147,6 +147,12 @@
             "a" : 0,
             "b" : 50,
             "g" : 200,
+            "r" : 200
+         },
+         "grenade_color" : {
+            "a" : 200,
+            "b" : 50,
+            "g" : 0,
             "r" : 200
          },
          "weapon_color" : {
@@ -462,9 +468,9 @@
       },
       "mainColor" : {
          "a" : 255,
-         "b" : 120,
-         "g" : 100,
-         "r" : 100
+         "b" : 16,
+         "g" : 149,
+         "r" : 235
       }
    },
    "View" : {

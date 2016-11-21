@@ -1,0 +1,481 @@
+{
+   "Aimbot" : {
+      "AimStep" : {
+         "enabled" : false,
+         "value" : 16.99110221862793
+      },
+      "AutoAim" : {
+         "enabled" : true
+      },
+      "AutoCrouch" : {
+         "enabled" : false
+      },
+      "AutoPistol" : {
+         "enabled" : false
+      },
+      "AutoShoot" : {
+         "autoscope" : false,
+         "enabled" : false
+      },
+      "AutoStop" : {
+         "enabled" : false
+      },
+      "AutoWall" : {
+         "bones" : [],
+         "enabled" : false,
+         "value" : 10
+      },
+      "RCS" : {
+         "enabled" : true,
+         "value" : 2
+      },
+      "Smooth" : {
+         "Salting" : {
+            "enabled" : false,
+            "percentage" : 0.071174107491970062
+         },
+         "enabled" : false,
+         "value" : 0.70213520526885986
+      },
+      "aimkey" : "MOUSE3",
+      "aimkey_only" : false,
+      "bone" : 6,
+      "enabled" : true,
+      "errorMargin" : 0,
+      "fov" : 29.097864151000977,
+      "friendly" : false,
+      "silent" : false
+   },
+   "Airstuck" : {
+      "enabled" : false,
+      "key" : "f"
+   },
+   "AntiAim" : {
+      "enabled_X" : false,
+      "enabled_Y" : false,
+      "type_X" : 1,
+      "type_Y" : 1
+   },
+   "AutoAccept" : {
+      "enabled" : false
+   },
+   "AutoStrafe" : {
+      "enabled" : true
+   },
+   "BHop" : {
+      "enabled" : true
+   },
+   "ClanTagChanger" : {
+      "animation" : false,
+      "enabled" : true,
+      "value" : "AimTux"
+   },
+   "Dlights" : {
+      "ally_color" : {
+         "a" : 255,
+         "b" : 200,
+         "g" : 50,
+         "r" : 0
+      },
+      "enabled" : false,
+      "enemy_color" : {
+         "a" : 255,
+         "b" : 50,
+         "g" : 0,
+         "r" : 200
+      },
+      "radius" : 500
+   },
+   "ESP" : {
+      "Bomb" : {
+         "enabled" : true
+      },
+      "Bones" : {
+         "enabled" : false
+      },
+      "Chams" : {
+         "Arms" : {
+            "color" : {
+               "a" : 255,
+               "b" : 73,
+               "g" : 43,
+               "r" : 117
+            },
+            "enabled" : true,
+            "type" : 3
+         },
+         "players" : true,
+         "players_ally_color" : {
+            "a" : 255,
+            "b" : 168,
+            "g" : 98,
+            "r" : 7
+         },
+         "players_enemy_color" : {
+            "a" : 255,
+            "b" : 28,
+            "g" : 24,
+            "r" : 243
+         },
+         "players_enemy_visible_color" : {
+            "a" : 255,
+            "b" : 20,
+            "g" : 159,
+            "r" : 243
+         },
+         "type" : 0,
+         "visibility_check" : false
+      },
+      "FOVCrosshair" : {
+         "enabled" : true
+      },
+      "Glow" : {
+         "ally_color" : {
+            "a" : 0,
+            "b" : 200,
+            "g" : 50,
+            "r" : 0
+         },
+         "enabled" : false,
+         "enemy_color" : {
+            "a" : 0,
+            "b" : 50,
+            "g" : 0,
+            "r" : 200
+         },
+         "enemy_visible_color" : {
+            "a" : 0,
+            "b" : 50,
+            "g" : 200,
+            "r" : 200
+         },
+         "grenade_color" : {
+            "a" : 200,
+            "b" : 50,
+            "g" : 0,
+            "r" : 200
+         },
+         "weapon_color" : {
+            "a" : 200,
+            "b" : 50,
+            "g" : 0,
+            "r" : 200
+         }
+      },
+      "Info" : {
+         "ally_color" : {
+            "a" : 255,
+            "b" : 200,
+            "g" : 50,
+            "r" : 0
+         },
+         "colorCode" : false,
+         "enemy_color" : {
+            "a" : 255,
+            "b" : 50,
+            "g" : 0,
+            "r" : 200
+         },
+         "enemy_visible_color" : {
+            "a" : 255,
+            "b" : 50,
+            "g" : 200,
+            "r" : 200
+         },
+         "showHealth" : true,
+         "showName" : true,
+         "showWeapon" : true
+      },
+      "Tracer" : {
+         "enabled" : false,
+         "type" : 0
+      },
+      "Walls" : {
+         "enabled" : false,
+         "type" : 0
+      },
+      "Weapons" : {
+         "enabled" : true
+      },
+      "ally_color" : {
+         "a" : 255,
+         "b" : 200,
+         "g" : 50,
+         "r" : 0
+      },
+      "bomb_color" : {
+         "a" : 255,
+         "b" : 50,
+         "g" : 0,
+         "r" : 200
+      },
+      "bones_color" : {
+         "a" : 255,
+         "b" : 255,
+         "g" : 255,
+         "r" : 255
+      },
+      "enabled" : true,
+      "enemy_color" : {
+         "a" : 255,
+         "b" : 50,
+         "g" : 0,
+         "r" : 200
+      },
+      "enemy_visible_color" : {
+         "a" : 255,
+         "b" : 50,
+         "g" : 200,
+         "r" : 200
+      },
+      "friendly" : true,
+      "show_scope_border" : true,
+      "visibility_check" : false
+   },
+   "FOVChanger" : {
+      "enabled" : true,
+      "value" : 109.95372772216797,
+      "viewmodel_enabled" : true,
+      "viewmodel_value" : 94.479644775390625
+   },
+   "FakeLag" : {
+      "enabled" : false
+   },
+   "NameChanger" : {
+      "enabled" : false,
+      "last_blank" : true
+   },
+   "Noflash" : {
+      "enabled" : true,
+      "value" : 160
+   },
+   "Radar" : {
+      "enabled" : false
+   },
+   "Recoilcrosshair" : {
+      "enabled" : false,
+      "showOnlyWhenShooting" : false
+   },
+   "ShowRanks" : {
+      "enabled" : true
+   },
+   "ShowSpectators" : {
+      "enabled" : true
+   },
+   "Skinchanger" : {
+      "enabled" : true,
+      "skins" : {
+         "WEAPON_AK47" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 524,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_AWP" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 344,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_DEAGLE" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 277,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_ELITE" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 249,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_FIVESEVEN" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 252,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_GLOCK" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 38,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_KNIFE" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_BAYONET",
+            "Model" : "",
+            "PaintKit" : 93,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.017437499016523361
+         },
+         "WEAPON_KNIFE_KARAMBIT" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
+            "Model" : "models/weapons/v_knife_karam.mdl",
+            "PaintKit" : 417,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_KNIFE_M9_BAYONET" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_M9_BAYONET",
+            "Model" : "models/weapons/v_knife_m9_bay.mdl",
+            "PaintKit" : 417,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_KNIFE_T" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_BAYONET",
+            "Model" : "",
+            "PaintKit" : 93,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.017437499016523361
+         },
+         "WEAPON_M4A1" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 512,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_M4A1_SILENCER" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 548,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_SCAR20" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 391,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_SSG08" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 319,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_TEC9" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 179,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_USP_SILENCER" : {
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "",
+            "PaintKit" : 332,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
+         }
+      }
+   },
+   "Spammer" : {
+      "KillSpammer" : {
+         "enabled" : false,
+         "message" : "$nick just got OWNED by AimTux!!"
+      },
+      "NormalSpammer" : {
+         "enabled" : false
+      },
+      "PositionSpammer" : {
+         "enabled" : false
+      }
+   },
+   "Teleport" : {
+      "enabled" : false,
+      "key" : 82
+   },
+   "Triggerbot" : {
+      "Delay" : {
+         "enabled" : false,
+         "value" : 250
+      },
+      "Filter" : {
+         "arms" : true,
+         "chest" : true,
+         "friendly" : false,
+         "head" : true,
+         "legs" : true,
+         "stomach" : true
+      },
+      "enabled" : true,
+      "key" : "ALT"
+   },
+   "UI" : {
+      "Fonts" : {
+         "ESP" : {
+            "family" : "Andale Mono",
+            "flags" : 528,
+            "size" : 20
+         },
+         "Mono" : {
+            "family" : "DejaVu Sans Mono",
+            "flags" : 144,
+            "size" : 17
+         },
+         "Normal" : {
+            "family" : "Arial",
+            "flags" : 144,
+            "size" : 17
+         },
+         "Title" : {
+            "family" : "Arial",
+            "flags" : 144,
+            "size" : 20
+         }
+      },
+      "mainColor" : {
+         "a" : 255,
+         "b" : 181,
+         "g" : 135,
+         "r" : 91
+      }
+   },
+   "View" : {
+      "NoPunch" : {
+         "enabled" : true
+      }
+   }
+}
