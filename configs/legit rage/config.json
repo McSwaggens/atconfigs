@@ -44,6 +44,7 @@
       "errorMargin" : 0,
       "fov" : 29.097864151000977,
       "friendly" : false,
+      "no_shoot" : false,
       "silent" : false
    },
    "Airstuck" : {
@@ -51,6 +52,10 @@
       "key" : "f"
    },
    "AntiAim" : {
+      "HeadEdge" : {
+         "distance" : 30,
+         "enabled" : true
+      },
       "enabled_X" : false,
       "enabled_Y" : false,
       "type_X" : 1,

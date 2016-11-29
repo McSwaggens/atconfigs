@@ -44,6 +44,7 @@
       "errorMargin" : 0,
       "fov" : 180,
       "friendly" : false,
+      "no_shoot" : false,
       "silent" : true
    },
    "Airstuck" : {
@@ -51,10 +52,14 @@
       "key" : "f"
    },
    "AntiAim" : {
+      "HeadEdge" : {
+         "distance" : 30,
+         "enabled" : true
+      },
       "enabled_X" : true,
       "enabled_Y" : true,
       "type_X" : 1,
-      "type_Y" : 7
+      "type_Y" : 6
    },
    "AutoAccept" : {
       "enabled" : false
@@ -184,7 +189,7 @@
          },
          "showHealth" : true,
          "showName" : true,
-         "showWeapon" : false
+         "showWeapon" : true
       },
       "Tracer" : {
          "enabled" : false,
@@ -323,28 +328,91 @@
             "CustomName" : "",
             "ItemDefinitionIndex" : "WEAPON_KNIFE_BAYONET",
             "Model" : "",
-            "PaintKit" : 93,
+            "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
-            "Wear" : 0.017437499016523361
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_KNIFE_BAYONET" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "models/weapons/v_knife_bayonet.mdl",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
+         },
+         "WEAPON_KNIFE_BUTTERFLY" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "models/weapons/v_knife_butterfly.mdl",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
+         },
+         "WEAPON_KNIFE_FALCHION" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "models/weapons/v_knife_falchion_advanced.mdl",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
+         },
+         "WEAPON_KNIFE_FLIP" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "models/weapons/v_knife_flip.mdl",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
+         },
+         "WEAPON_KNIFE_GUT" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "models/weapons/v_knife_gut.mdl",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
          },
          "WEAPON_KNIFE_KARAMBIT" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
             "Model" : "models/weapons/v_knife_karam.mdl",
-            "PaintKit" : 417,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
          },
          "WEAPON_KNIFE_M9_BAYONET" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_M9_BAYONET",
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
             "Model" : "models/weapons/v_knife_m9_bay.mdl",
-            "PaintKit" : 417,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
+         },
+         "WEAPON_KNIFE_PUSH" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "models/weapons/v_knife_push.mdl",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
+         },
+         "WEAPON_KNIFE_SURVIVAL_BOWIE" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "models/weapons/v_knife_survival_bowie.mdl",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
          },
          "WEAPON_KNIFE_T" : {
             "CustomName" : "AimTux",
@@ -354,6 +422,15 @@
             "Seed" : 0,
             "StatTrak" : 1337,
             "Wear" : 0.00050000002374872565
+         },
+         "WEAPON_KNIFE_TACTICAL" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "Model" : "models/weapons/v_knife_tactical.mdl",
+            "PaintKit" : -1,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : -1
          },
          "WEAPON_M4A1" : {
             "CustomName" : "AimTux",
@@ -475,7 +552,7 @@
    },
    "View" : {
       "NoPunch" : {
-         "enabled" : false
+         "enabled" : true
       }
    }
 }

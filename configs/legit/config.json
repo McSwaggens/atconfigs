@@ -44,6 +44,7 @@
       "errorMargin" : 0,
       "fov" : 7.0462632179260254,
       "friendly" : false,
+      "no_shoot" : false,
       "silent" : false
    },
    "Airstuck" : {
@@ -51,13 +52,17 @@
       "key" : "f"
    },
    "AntiAim" : {
+      "HeadEdge" : {
+         "distance" : 30,
+         "enabled" : true
+      },
       "enabled_X" : false,
       "enabled_Y" : false,
       "type_X" : 1,
       "type_Y" : 1
    },
    "AutoAccept" : {
-      "enabled" : false
+      "enabled" : true
    },
    "AutoStrafe" : {
       "enabled" : true
@@ -147,6 +152,12 @@
             "a" : 0,
             "b" : 50,
             "g" : 200,
+            "r" : 200
+         },
+         "grenade_color" : {
+            "a" : 200,
+            "b" : 50,
+            "g" : 0,
             "r" : 200
          },
          "weapon_color" : {
