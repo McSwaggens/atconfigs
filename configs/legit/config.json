@@ -54,7 +54,7 @@
    "AntiAim" : {
       "HeadEdge" : {
          "distance" : 30,
-         "enabled" : true
+         "enabled" : false
       },
       "enabled_X" : false,
       "enabled_Y" : false,
@@ -65,7 +65,8 @@
       "enabled" : true
    },
    "AutoStrafe" : {
-      "enabled" : true
+      "enabled" : true,
+      "type" : 0
    },
    "BHop" : {
       "enabled" : true
