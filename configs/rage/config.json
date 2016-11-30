@@ -39,7 +39,7 @@
       },
       "aimkey" : "MOUSE3",
       "aimkey_only" : false,
-      "bone" : 6,
+      "bone" : 8,
       "enabled" : true,
       "errorMargin" : 0,
       "fov" : 180,
@@ -65,7 +65,8 @@
       "enabled" : false
    },
    "AutoStrafe" : {
-      "enabled" : true
+      "enabled" : true,
+      "type" : 0
    },
    "BHop" : {
       "enabled" : true
