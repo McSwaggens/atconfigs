@@ -1,8 +1,4 @@
 # atconfigs
+These are my personal configs for [AimTux](https://github.com/McSwaggens/AimTux).
 
-Drop these two configs in the `~/.steam/steam/steamapps/common/Counter-Strike\ Global\ Offensive/` directory, then load them in game.
-
-| no.    | file     | use  |
-| ------------- |:-------------:| -----:|
-| #1   | aimtux_settings_1.json | Legit |
-| #2   | aimtux_settings_2.json |   Rage |
+You can install them by running the `./install.sh` script.
