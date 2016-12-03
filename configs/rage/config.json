@@ -142,6 +142,12 @@
             "g" : 50,
             "r" : 0
          },
+         "defuser_color" : {
+            "a" : 200,
+            "b" : 200,
+            "g" : 100,
+            "r" : 100
+         },
          "enabled" : false,
          "enemy_color" : {
             "a" : 0,
@@ -190,7 +196,7 @@
          },
          "showHealth" : true,
          "showName" : true,
-         "showWeapon" : false
+         "showWeapon" : true
       },
       "Tracer" : {
          "enabled" : false,
@@ -201,7 +207,7 @@
          "type" : 0
       },
       "Weapons" : {
-         "enabled" : false
+         "enabled" : true
       },
       "ally_color" : {
          "a" : 255,
@@ -261,6 +267,9 @@
    "Recoilcrosshair" : {
       "enabled" : false,
       "showOnlyWhenShooting" : false
+   },
+   "Resolver" : {
+      "enabled" : true
    },
    "ShowRanks" : {
       "enabled" : true
@@ -553,7 +562,7 @@
    },
    "View" : {
       "NoPunch" : {
-         "enabled" : false
+         "enabled" : true
       }
    }
 }
