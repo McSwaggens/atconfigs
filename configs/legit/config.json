@@ -59,7 +59,8 @@
       "enabled_X" : false,
       "enabled_Y" : false,
       "type_X" : 1,
-      "type_Y" : 1
+      "type_Y" : 1,
+      "type_fake_Y" : 4
    },
    "AutoAccept" : {
       "enabled" : true
@@ -116,6 +117,12 @@
             "b" : 168,
             "g" : 98,
             "r" : 7
+         },
+         "players_ally_visible_color" : {
+            "a" : 255,
+            "b" : 138,
+            "g" : 52,
+            "r" : 40
          },
          "players_enemy_color" : {
             "a" : 255,
