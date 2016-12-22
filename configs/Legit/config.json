@@ -5,7 +5,8 @@
          "value" : 25
       },
       "AutoAim" : {
-         "enabled" : true
+         "enabled" : true,
+         "fov" : 13.325000762939453
       },
       "AutoCrouch" : {
          "enabled" : false
@@ -15,55 +16,67 @@
       },
       "AutoShoot" : {
          "autoscope" : false,
-         "enabled" : true
+         "enabled" : false
       },
       "AutoStop" : {
          "enabled" : false
       },
       "AutoWall" : {
-         "bones" : [ 6, 0, 1, 2, 3, 4, 5 ],
-         "enabled" : true,
-         "value" : 0.16260161995887756
+         "bones" : [ false, false, false, false, false, false ],
+         "enabled" : false,
+         "value" : 0.13100001215934753
+      },
+      "ErrorMargin" : {
+         "enabled" : false,
+         "value" : 0
+      },
+      "NoShoot" : {
+         "enabled" : false
       },
       "RCS" : {
+         "always_on" : false,
          "enabled" : true,
          "value" : 2
       },
       "Smooth" : {
          "Salting" : {
-            "enabled" : true,
-            "percentage" : 2.0785219669342041
+            "enabled" : false,
+            "percentage" : 0
          },
-         "enabled" : false,
-         "value" : 1
+         "enabled" : true,
+         "value" : 0.73600006103515625
       },
       "aimkey" : "MOUSE3",
       "aimkey_only" : false,
       "bone" : 8,
       "enabled" : true,
-      "errorMargin" : 0,
-      "fov" : 180,
       "friendly" : false,
-      "no_shoot" : false,
-      "silent" : true
+      "silent" : false
    },
    "Airstuck" : {
       "enabled" : false,
       "key" : "f"
    },
    "AntiAim" : {
-      "HeadEdge" : {
-         "distance" : 30,
-         "enabled" : true
+      "FakeOut" : {
+         "enabled" : false
       },
-      "enabled_X" : true,
-      "enabled_Y" : true,
-      "type_X" : 1,
-      "type_Y" : 5,
-      "type_fake_Y" : 4
+      "HeadEdge" : {
+         "distance" : 25,
+         "enabled" : false
+      },
+      "Pitch" : {
+         "enabled" : false,
+         "type" : 1
+      },
+      "Yaw" : {
+         "enabled" : false,
+         "type" : 1,
+         "type_fake" : 1
+      }
    },
    "AutoAccept" : {
-      "enabled" : false
+      "enabled" : true
    },
    "AutoStrafe" : {
       "enabled" : true,
@@ -73,189 +86,298 @@
       "enabled" : true
    },
    "ClanTagChanger" : {
-      "animation" : true,
+      "animation" : false,
+      "animation_speed" : 234,
       "enabled" : true,
-      "value" : ""
+      "type" : 1,
+      "value" : "AIMTUX.NET"
    },
    "Dlights" : {
       "ally_color" : {
-         "a" : 255,
-         "b" : 200,
-         "g" : 50,
+         "a" : 1,
+         "b" : 0.78431379795074463,
+         "g" : 0.19607844948768616,
          "r" : 0
       },
       "enabled" : false,
       "enemy_color" : {
-         "a" : 255,
-         "b" : 50,
+         "a" : 1,
+         "b" : 0.19607844948768616,
          "g" : 0,
-         "r" : 200
+         "r" : 0.78431379795074463
       },
       "radius" : 500
    },
    "ESP" : {
-      "Bomb" : {
-         "enabled" : true
+      "Bars" : {
+         "color_type" : 1,
+         "enabled" : true,
+         "type" : 3
       },
-      "Bones" : {
+      "Boxes" : {
+         "enabled" : true,
+         "type" : 1
+      },
+      "BulletTracers" : {
          "enabled" : false
       },
       "Chams" : {
          "Arms" : {
             "color" : {
-               "a" : 255,
-               "b" : 73,
-               "g" : 43,
-               "r" : 117
+               "a" : 1,
+               "b" : 0.28627452254295349,
+               "g" : 0.16862745583057404,
+               "r" : 0.458823561668396
             },
-            "enabled" : true,
+            "enabled" : false,
             "type" : 0
          },
-         "players" : true,
+         "players" : false,
          "players_ally_color" : {
-            "a" : 255,
-            "b" : 168,
-            "g" : 98,
-            "r" : 7
+            "a" : 1,
+            "b" : 0.65882354974746704,
+            "g" : 0.38431376218795776,
+            "r" : 0.027450982481241226
          },
          "players_ally_visible_color" : {
-            "a" : 255,
-            "b" : 138,
-            "g" : 52,
-            "r" : 40
+            "a" : 1,
+            "b" : 0.54117649793624878,
+            "g" : 0.20392158627510071,
+            "r" : 0.15686275064945221
          },
          "players_enemy_color" : {
-            "a" : 255,
-            "b" : 28,
-            "g" : 24,
-            "r" : 243
+            "a" : 1,
+            "b" : 0.1098039299249649,
+            "g" : 0.094117656350135803,
+            "r" : 0.95294123888015747
          },
          "players_enemy_visible_color" : {
-            "a" : 255,
-            "b" : 20,
-            "g" : 159,
-            "r" : 243
+            "a" : 1,
+            "b" : 0.078431375324726105,
+            "g" : 0.62352943420410156,
+            "r" : 0.95294123888015747
          },
          "type" : 0,
          "visibility_check" : false
       },
       "FOVCrosshair" : {
-         "enabled" : false
+         "color" : {
+            "a" : 1,
+            "b" : 0.19607844948768616,
+            "g" : 0.19607844948768616,
+            "r" : 0.70588237047195435
+         },
+         "enabled" : true
+      },
+      "Filters" : {
+         "allies" : true,
+         "bomb" : true,
+         "chickens" : true,
+         "defusers" : true,
+         "enemies" : true,
+         "fishes" : false,
+         "hostages" : false,
+         "legit" : false,
+         "throwables" : true,
+         "visibility_check" : false,
+         "weapons" : true
       },
       "Glow" : {
          "ally_color" : {
             "a" : 0,
-            "b" : 200,
-            "g" : 50,
+            "b" : 0.78431379795074463,
+            "g" : 0.19607844948768616,
             "r" : 0
          },
          "defuser_color" : {
-            "a" : 200,
-            "b" : 200,
-            "g" : 100,
-            "r" : 100
+            "a" : 0.78431379795074463,
+            "b" : 0.78431379795074463,
+            "g" : 0.39215689897537231,
+            "r" : 0.39215689897537231
          },
          "enabled" : false,
          "enemy_color" : {
             "a" : 0,
-            "b" : 50,
+            "b" : 0.19607844948768616,
             "g" : 0,
-            "r" : 200
+            "r" : 0.78431379795074463
          },
          "enemy_visible_color" : {
             "a" : 0,
-            "b" : 50,
-            "g" : 200,
-            "r" : 200
+            "b" : 0.19607844948768616,
+            "g" : 0.78431379795074463,
+            "r" : 0.78431379795074463
          },
          "grenade_color" : {
-            "a" : 200,
-            "b" : 50,
+            "a" : 0.78431379795074463,
+            "b" : 0.19607844948768616,
             "g" : 0,
-            "r" : 200
+            "r" : 0.78431379795074463
          },
          "weapon_color" : {
-            "a" : 200,
-            "b" : 50,
+            "a" : 0.78431379795074463,
+            "b" : 0.19607844948768616,
             "g" : 0,
-            "r" : 200
+            "r" : 0.78431379795074463
          }
       },
       "Info" : {
-         "ally_color" : {
-            "a" : 255,
-            "b" : 200,
-            "g" : 50,
-            "r" : 0
-         },
-         "colorCode" : false,
-         "enemy_color" : {
-            "a" : 255,
-            "b" : 50,
-            "g" : 0,
-            "r" : 200
-         },
-         "enemy_visible_color" : {
-            "a" : 255,
-            "b" : 50,
-            "g" : 200,
-            "r" : 200
-         },
-         "showHealth" : true,
-         "showName" : true,
-         "showWeapon" : true
+         "clan" : false,
+         "defusing" : false,
+         "flashed" : false,
+         "grabbing_hostage" : false,
+         "has_defuser" : false,
+         "health" : false,
+         "location" : false,
+         "name" : true,
+         "planting" : false,
+         "rank" : false,
+         "reloading" : true,
+         "rescuing" : false,
+         "scoped" : false,
+         "steam_id" : false,
+         "weapon" : true
       },
-      "Tracer" : {
+      "Skeleton" : {
+         "color" : {
+            "a" : 1,
+            "b" : 1,
+            "g" : 1,
+            "r" : 1
+         },
+         "enabled" : false
+      },
+      "Tracers" : {
          "enabled" : false,
          "type" : 0
       },
-      "Walls" : {
-         "enabled" : true,
-         "type" : 0
-      },
-      "Weapons" : {
-         "enabled" : true
-      },
       "ally_color" : {
-         "a" : 255,
-         "b" : 200,
-         "g" : 50,
-         "r" : 0
+         "a" : 1,
+         "b" : 0.94117653369903564,
+         "g" : 0.23529413342475891,
+         "r" : 0.23529413342475891
+      },
+      "ally_visible_color" : {
+         "a" : 1,
+         "b" : 0.94117653369903564,
+         "g" : 0.72549021244049072,
+         "r" : 0.23529413342475891
       },
       "bomb_color" : {
-         "a" : 255,
-         "b" : 50,
-         "g" : 0,
-         "r" : 200
+         "a" : 1,
+         "b" : 0.7568628191947937,
+         "g" : 0.18823531270027161,
+         "r" : 0.9490196704864502
       },
-      "bones_color" : {
-         "a" : 255,
-         "b" : 255,
-         "g" : 255,
-         "r" : 255
+      "bomb_defusing_color" : {
+         "a" : 1,
+         "b" : 0.9490196704864502,
+         "g" : 0.18823531270027161,
+         "r" : 0.39215689897537231
       },
-      "enabled" : true,
+      "chicken_color" : {
+         "a" : 1,
+         "b" : 1,
+         "g" : 1,
+         "r" : 1
+      },
+      "ct_color" : {
+         "a" : 1,
+         "b" : 0.94117653369903564,
+         "g" : 0.23529413342475891,
+         "r" : 0.23529413342475891
+      },
+      "ct_visible_color" : {
+         "a" : 1,
+         "b" : 0.94117653369903564,
+         "g" : 0.72549021244049072,
+         "r" : 0.23529413342475891
+      },
+      "decoy_color" : {
+         "a" : 1,
+         "b" : 0.086274512112140656,
+         "g" : 0.87843143939971924,
+         "r" : 0.12549020349979401
+      },
+      "defuser_color" : {
+         "a" : 1,
+         "b" : 0.9490196704864502,
+         "g" : 0.18823531270027161,
+         "r" : 0.51764708757400513
+      },
+      "enabled" : null,
       "enemy_color" : {
-         "a" : 255,
-         "b" : 50,
-         "g" : 0,
-         "r" : 200
+         "a" : 1,
+         "b" : 0.23529413342475891,
+         "g" : 0.23529413342475891,
+         "r" : 0.94117653369903564
       },
       "enemy_visible_color" : {
-         "a" : 255,
-         "b" : 50,
-         "g" : 200,
-         "r" : 200
+         "a" : 1,
+         "b" : 0.23529413342475891,
+         "g" : 0.72549021244049072,
+         "r" : 0.94117653369903564
       },
-      "friendly" : true,
-      "show_scope_border" : true,
-      "visibility_check" : false
+      "fish_color" : {
+         "a" : 1,
+         "b" : 1,
+         "g" : 1,
+         "r" : 1
+      },
+      "flashbang_color" : {
+         "a" : 1,
+         "b" : 0.086274512112140656,
+         "g" : 0.81176477670669556,
+         "r" : 0.87843143939971924
+      },
+      "grenade_color" : {
+         "a" : 1,
+         "b" : 0.086274512112140656,
+         "g" : 0.086274512112140656,
+         "r" : 0.87843143939971924
+      },
+      "hostage_color" : {
+         "a" : 1,
+         "b" : 0.7568628191947937,
+         "g" : 0.18823531270027161,
+         "r" : 0.9490196704864502
+      },
+      "molotov_color" : {
+         "a" : 1,
+         "b" : 0.086274512112140656,
+         "g" : 0.086274512112140656,
+         "r" : 0.87843143939971924
+      },
+      "smoke_color" : {
+         "a" : 1,
+         "b" : 0.086274512112140656,
+         "g" : 0.87843143939971924,
+         "r" : 0.12549020349979401
+      },
+      "t_color" : {
+         "a" : 1,
+         "b" : 0.23529413342475891,
+         "g" : 0.23529413342475891,
+         "r" : 0.94117653369903564
+      },
+      "t_visible_color" : {
+         "a" : 1,
+         "b" : 0.23529413342475891,
+         "g" : 0.72549021244049072,
+         "r" : 0.94117653369903564
+      },
+      "weapon_color" : {
+         "a" : 1,
+         "b" : 1,
+         "g" : 1,
+         "r" : 1
+      }
    },
    "FOVChanger" : {
-      "enabled" : true,
-      "value" : 120.98969268798828,
-      "viewmodel_enabled" : true,
-      "viewmodel_value" : 108.32579803466797
+      "enabled" : false,
+      "value" : 100,
+      "viewmodel_enabled" : false,
+      "viewmodel_value" : 90
    },
    "FakeLag" : {
       "enabled" : false
@@ -272,11 +394,8 @@
       "enabled" : false
    },
    "Recoilcrosshair" : {
-      "enabled" : false,
+      "enabled" : true,
       "showOnlyWhenShooting" : false
-   },
-   "Resolver" : {
-      "enabled" : true
    },
    "ShowRanks" : {
       "enabled" : true
@@ -342,13 +461,13 @@
             "Wear" : 0.00050000002374872565
          },
          "WEAPON_KNIFE" : {
-            "CustomName" : "",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_BAYONET",
+            "CustomName" : "AimTux",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_M9_BAYONET",
             "Model" : "",
-            "PaintKit" : 12,
-            "Seed" : -1,
-            "StatTrak" : -1,
-            "Wear" : 0.004999999888241291
+            "PaintKit" : 417,
+            "Seed" : 0,
+            "StatTrak" : 1337,
+            "Wear" : 0.00050000002374872565
          },
          "WEAPON_KNIFE_BAYONET" : {
             "CustomName" : "",
@@ -507,14 +626,25 @@
    },
    "Spammer" : {
       "KillSpammer" : {
-         "enabled" : true,
-         "message" : "$nick just got OWNED by AimTux!!"
+         "enabled" : false,
+         "message" : "$nick just got OWNED by AimTux!!",
+         "say_team" : false
       },
       "NormalSpammer" : {
-         "enabled" : false
+         "enabled" : false,
+         "messages" : [
+            "AimTux owns me and all",
+            "Your Windows p2c sucks my AimTux dry",
+            "It's free as in FREEDOM!",
+            "Tux only let me out so I could play this game, please be nice!",
+            "Tux nutted but you keep sucken",
+            ">tfw no vac on Linux"
+         ],
+         "say_team" : false
       },
       "PositionSpammer" : {
-         "enabled" : false
+         "enabled" : false,
+         "say_team" : false
       }
    },
    "Teleport" : {
@@ -523,48 +653,46 @@
    },
    "Triggerbot" : {
       "Delay" : {
-         "enabled" : false,
-         "value" : 250
+         "enabled" : true,
+         "value" : 53
       },
       "Filter" : {
-         "arms" : false,
-         "chest" : false,
+         "arms" : true,
+         "chest" : true,
          "friendly" : false,
-         "head" : false,
-         "legs" : false,
-         "stomach" : true
+         "head" : true,
+         "legs" : true,
+         "stomach" : true,
+         "walls" : false
       },
-      "enabled" : false,
+      "enabled" : true,
       "key" : "ALT"
    },
    "UI" : {
       "Fonts" : {
          "ESP" : {
             "family" : "Andale Mono",
-            "flags" : 528,
-            "size" : 20
-         },
-         "Mono" : {
-            "family" : "DejaVu Sans Mono",
-            "flags" : 144,
-            "size" : 17
-         },
-         "Normal" : {
-            "family" : "Arial",
-            "flags" : 144,
-            "size" : 17
-         },
-         "Title" : {
-            "family" : "Arial",
-            "flags" : 144,
-            "size" : 20
+            "flags" : 128,
+            "size" : 25
          }
       },
+      "bodyColor" : {
+         "a" : 0.94117653369903564,
+         "b" : 0.094117656350135803,
+         "g" : 0.094117656350135803,
+         "r" : 0.094117656350135803
+      },
+      "fontColor" : {
+         "a" : 1,
+         "b" : 1,
+         "g" : 1,
+         "r" : 1
+      },
       "mainColor" : {
-         "a" : 255,
-         "b" : 120,
-         "g" : 100,
-         "r" : 100
+         "a" : 1,
+         "b" : 0.21176260709762573,
+         "g" : 0.21176260709762573,
+         "r" : 0.21176472306251526
       }
    },
    "View" : {
