@@ -397,6 +397,9 @@
       "enabled" : false,
       "showOnlyWhenShooting" : false
    },
+   "Resolver" : {
+      "resolve_all" : false
+   },
    "ShowRanks" : {
       "enabled" : true
    },
@@ -690,9 +693,9 @@
       },
       "mainColor" : {
          "a" : 1,
-         "b" : 0.08948545902967453,
-         "g" : 0.08944220095872879,
-         "r" : 0.80904519557952881
+         "b" : 0.73366832733154297,
+         "g" : 0.35002204775810242,
+         "r" : 0.30231559276580811
       }
    },
    "View" : {
