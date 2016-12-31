@@ -1,4 +1,13 @@
 {
+   "ASUSWalls" : {
+      "color" : {
+         "a" : 0.58823531866073608,
+         "b" : 1,
+         "g" : 1,
+         "r" : 1
+      },
+      "enabled" : false
+   },
    "Aimbot" : {
       "AimStep" : {
          "enabled" : false,
@@ -6,7 +15,7 @@
       },
       "AutoAim" : {
          "enabled" : true,
-         "fov" : 13.325000762939453
+         "fov" : 180.00001525878906
       },
       "AutoCrouch" : {
          "enabled" : false
@@ -43,15 +52,15 @@
       },
       "Smooth" : {
          "Salting" : {
-            "enabled" : false,
-            "percentage" : 0
+            "enabled" : true,
+            "multiplier" : 0.077000007033348083
          },
          "enabled" : true,
-         "value" : 0.73600006103515625
+         "value" : 0.86600005626678467
       },
       "aimkey" : "MOUSE3",
       "aimkey_only" : false,
-      "bone" : 8,
+      "bone" : 7,
       "enabled" : true,
       "friendly" : false,
       "silent" : false
@@ -61,8 +70,9 @@
       "key" : "f"
    },
    "AntiAim" : {
-      "FakeOut" : {
-         "enabled" : false
+      "AutoDisable" : {
+         "knife_held" : false,
+         "no_enemy" : false
       },
       "HeadEdge" : {
          "distance" : 25,
@@ -96,29 +106,17 @@
       "value" : "memes"
    },
    "Dlights" : {
-      "ally_color" : {
-         "a" : 1,
-         "b" : 0.78431379795074463,
-         "g" : 0.19607844948768616,
-         "r" : 0
-      },
       "enabled" : false,
-      "enemy_color" : {
-         "a" : 1,
-         "b" : 0.19607844948768616,
-         "g" : 0,
-         "r" : 0.78431379795074463
-      },
       "radius" : 500
    },
    "ESP" : {
       "Bars" : {
          "color_type" : 1,
-         "enabled" : true,
+         "enabled" : false,
          "type" : 3
       },
       "Boxes" : {
-         "enabled" : true,
+         "enabled" : false,
          "type" : 1
       },
       "BulletTracers" : {
@@ -132,10 +130,10 @@
                "g" : 0.16862745583057404,
                "r" : 0.458823561668396
             },
-            "enabled" : false,
-            "type" : 0
+            "enabled" : true,
+            "type" : 3
          },
-         "players" : false,
+         "players" : true,
          "players_ally_color" : {
             "a" : 1,
             "b" : 0.65882354974746704,
@@ -150,32 +148,32 @@
          },
          "players_enemy_color" : {
             "a" : 1,
-            "b" : 0.1098039299249649,
+            "b" : 0.094117656350135803,
             "g" : 0.094117656350135803,
             "r" : 0.95294123888015747
          },
          "players_enemy_visible_color" : {
             "a" : 1,
-            "b" : 0.078431375324726105,
-            "g" : 0.62352943420410156,
+            "b" : 0.078431390225887299,
+            "g" : 0.078431390225887299,
             "r" : 0.95294123888015747
          },
          "type" : 0,
-         "visibility_check" : false
+         "visibility_check" : true
       },
       "FOVCrosshair" : {
          "color" : {
             "a" : 1,
-            "b" : 0.19607844948768616,
-            "g" : 0.19607844948768616,
+            "b" : 0.19607849419116974,
+            "g" : 0.19607849419116974,
             "r" : 0.70588237047195435
          },
          "enabled" : true
       },
       "Filters" : {
-         "allies" : true,
+         "allies" : false,
          "bomb" : true,
-         "chickens" : true,
+         "chickens" : false,
          "defusers" : true,
          "enemies" : true,
          "fishes" : false,
@@ -183,7 +181,7 @@
          "legit" : false,
          "throwables" : true,
          "visibility_check" : false,
-         "weapons" : true
+         "weapons" : false
       },
       "Glow" : {
          "ally_color" : {
@@ -238,14 +236,14 @@
          "has_defuser" : false,
          "health" : false,
          "location" : false,
-         "name" : true,
+         "name" : false,
          "planting" : false,
          "rank" : false,
          "reloading" : true,
          "rescuing" : false,
          "scoped" : false,
          "steam_id" : false,
-         "weapon" : true
+         "weapon" : false
       },
       "Skeleton" : {
          "color" : {
@@ -255,6 +253,10 @@
             "r" : 1
          },
          "enabled" : false
+      },
+      "Sounds" : {
+         "enabled" : false,
+         "time" : 1000
       },
       "Tracers" : {
          "enabled" : false,
@@ -317,8 +319,8 @@
       "enabled" : null,
       "enemy_color" : {
          "a" : 1,
-         "b" : 0.23529413342475891,
-         "g" : 0.23529413342475891,
+         "b" : 0.23529407382011414,
+         "g" : 0.23529407382011414,
          "r" : 0.94117653369903564
       },
       "enemy_visible_color" : {
@@ -391,9 +393,17 @@
    "FakeLag" : {
       "enabled" : false
    },
-   "NameChanger" : {
-      "enabled" : false,
-      "last_blank" : false
+   "NoScopeBorder" : {
+      "enabled" : false
+   },
+   "NoSky" : {
+      "color" : {
+         "a" : 1,
+         "b" : 0,
+         "g" : 0,
+         "r" : 0
+      },
+      "enabled" : false
    },
    "Noflash" : {
       "enabled" : true,
@@ -404,7 +414,7 @@
    },
    "Recoilcrosshair" : {
       "enabled" : true,
-      "showOnlyWhenShooting" : false
+      "showOnlyWhenShooting" : true
    },
    "Resolver" : {
       "resolve_all" : false
@@ -419,13 +429,13 @@
       "enabled" : true,
       "skins" : {
          "WEAPON_AK47" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "WEAPON_AK47",
             "Model" : "",
-            "PaintKit" : 524,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "PaintKit" : 471,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_AWP" : {
             "CustomName" : "AimTux",
@@ -643,7 +653,6 @@
          "say_team" : false
       },
       "NormalSpammer" : {
-         "enabled" : false,
          "messages" : [
             "AimTux owns me and all",
             "Your Windows p2c sucks my AimTux dry",
@@ -651,13 +660,19 @@
             "Tux only let me out so I could play this game, please be nice!",
             "Tux nutted but you keep sucken",
             ">tfw no vac on Linux"
-         ],
-         "say_team" : false
+         ]
       },
       "PositionSpammer" : {
-         "enabled" : false,
-         "say_team" : false
-      }
+         "show_health" : true,
+         "show_lastplace" : true,
+         "show_money" : true,
+         "show_name" : true,
+         "show_rank" : true,
+         "show_weapon" : true,
+         "show_wins" : true
+      },
+      "say_team" : false,
+      "spammer_type" : 0
    },
    "Teleport" : {
       "enabled" : false,
@@ -666,19 +681,19 @@
    "Triggerbot" : {
       "Delay" : {
          "enabled" : true,
-         "value" : 53
+         "value" : 21
       },
       "Filter" : {
-         "arms" : true,
+         "arms" : false,
          "chest" : true,
          "friendly" : false,
          "head" : true,
-         "legs" : true,
+         "legs" : false,
          "stomach" : true,
          "walls" : false
       },
       "enabled" : true,
-      "key" : "ALT"
+      "key" : "MOUSE1"
    },
    "UI" : {
       "Fonts" : {
@@ -689,27 +704,27 @@
          }
       },
       "bodyColor" : {
-         "a" : 0.94117653369903564,
-         "b" : 0.094116717576980591,
-         "g" : 0.094116717576980591,
-         "r" : 0.094117656350135803
+         "a" : 0.7839195728302002,
+         "b" : 0.95978939533233643,
+         "g" : 0.95978939533233643,
+         "r" : 0.95979899168014526
       },
       "fontColor" : {
          "a" : 1,
-         "b" : 1,
-         "g" : 1,
-         "r" : 1
+         "b" : 0,
+         "g" : 0.00098039221484214067,
+         "r" : 0
       },
       "mainColor" : {
          "a" : 1,
-         "b" : 0.4073326587677002,
-         "g" : 0.42713570594787598,
-         "r" : 0.28117978572845459
+         "b" : 0.14696595072746277,
+         "g" : 0.75771021842956543,
+         "r" : 0.97487437725067139
       }
    },
    "View" : {
       "NoPunch" : {
-         "enabled" : true
+         "enabled" : false
       }
    }
 }

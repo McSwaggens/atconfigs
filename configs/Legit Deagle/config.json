@@ -15,7 +15,7 @@
       },
       "AutoAim" : {
          "enabled" : true,
-         "fov" : 36.78900146484375
+         "fov" : 4.9670000076293945
       },
       "AutoCrouch" : {
          "enabled" : false
@@ -53,10 +53,10 @@
       "Smooth" : {
          "Salting" : {
             "enabled" : true,
-            "multiplier" : 0.10200000554323196
+            "multiplier" : 0.082000002264976501
          },
          "enabled" : true,
-         "value" : 0.80100005865097046
+         "value" : 0.81600004434585571
       },
       "aimkey" : "MOUSE3",
       "aimkey_only" : false,
@@ -70,6 +70,10 @@
       "key" : "f"
    },
    "AntiAim" : {
+      "AutoDisable" : {
+         "knife_held" : false,
+         "no_enemy" : false
+      },
       "HeadEdge" : {
          "distance" : 25,
          "enabled" : false
@@ -97,24 +101,12 @@
    "ClanTagChanger" : {
       "animation" : false,
       "animation_speed" : 650,
-      "enabled" : false,
+      "enabled" : true,
       "type" : 0,
-      "value" : ""
+      "value" : "McSwaggens"
    },
    "Dlights" : {
-      "ally_color" : {
-         "a" : 1,
-         "b" : 0.78431379795074463,
-         "g" : 0.19607844948768616,
-         "r" : 0
-      },
       "enabled" : false,
-      "enemy_color" : {
-         "a" : 1,
-         "b" : 0.19607844948768616,
-         "g" : 0,
-         "r" : 0.78431379795074463
-      },
       "radius" : 500
    },
    "ESP" : {
@@ -162,7 +154,7 @@
          },
          "players_enemy_visible_color" : {
             "a" : 1,
-            "b" : 0.078431375324726105,
+            "b" : 0.078431390225887299,
             "g" : 0.62352943420410156,
             "r" : 0.95294123888015747
          },
@@ -176,7 +168,7 @@
             "g" : 0.19607844948768616,
             "r" : 0.70588237047195435
          },
-         "enabled" : false
+         "enabled" : true
       },
       "Filters" : {
          "allies" : false,
@@ -401,9 +393,8 @@
    "FakeLag" : {
       "enabled" : false
    },
-   "NameChanger" : {
-      "enabled" : false,
-      "last_blank" : false
+   "NoScopeBorder" : {
+      "enabled" : false
    },
    "NoSky" : {
       "color" : {
@@ -456,13 +447,13 @@
             "Wear" : 0.00050000002374872565
          },
          "WEAPON_DEAGLE" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "WEAPON_DEAGLE",
             "Model" : "",
-            "PaintKit" : 277,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "PaintKit" : 522,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_ELITE" : {
             "CustomName" : "AimTux",
@@ -690,7 +681,7 @@
    "Triggerbot" : {
       "Delay" : {
          "enabled" : true,
-         "value" : 83
+         "value" : 25
       },
       "Filter" : {
          "arms" : false,
@@ -714,21 +705,21 @@
       },
       "bodyColor" : {
          "a" : 0.94117653369903564,
-         "b" : 0.094117656350135803,
-         "g" : 0.094117656350135803,
-         "r" : 0.094117656350135803
+         "b" : 0,
+         "g" : 0,
+         "r" : 0.085427165031433105
       },
       "fontColor" : {
          "a" : 1,
-         "b" : 1,
-         "g" : 1,
+         "b" : 0.99998998641967773,
+         "g" : 0.99999970197677612,
          "r" : 1
       },
       "mainColor" : {
          "a" : 1,
-         "b" : 0.21176472306251526,
-         "g" : 0.21176472306251526,
-         "r" : 0.21176472306251526
+         "b" : 0.16767248511314392,
+         "g" : 0.16767248511314392,
+         "r" : 0.83417081832885742
       }
    },
    "View" : {

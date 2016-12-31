@@ -40,7 +40,7 @@
          "value" : 0
       },
       "IgnoreJump" : {
-         "enabled" : false
+         "enabled" : true
       },
       "NoShoot" : {
          "enabled" : false
@@ -70,6 +70,10 @@
       "key" : "f"
    },
    "AntiAim" : {
+      "AutoDisable" : {
+         "knife_held" : false,
+         "no_enemy" : false
+      },
       "HeadEdge" : {
          "distance" : 25,
          "enabled" : false
@@ -102,19 +106,7 @@
       "value" : ""
    },
    "Dlights" : {
-      "ally_color" : {
-         "a" : 1,
-         "b" : 0.78431379795074463,
-         "g" : 0.19607844948768616,
-         "r" : 0
-      },
       "enabled" : false,
-      "enemy_color" : {
-         "a" : 1,
-         "b" : 0.19607844948768616,
-         "g" : 0,
-         "r" : 0.78431379795074463
-      },
       "radius" : 500
    },
    "ESP" : {
@@ -172,8 +164,8 @@
       "FOVCrosshair" : {
          "color" : {
             "a" : 1,
-            "b" : 0.19607844948768616,
-            "g" : 0.19607844948768616,
+            "b" : 0.19607849419116974,
+            "g" : 0.19607849419116974,
             "r" : 0.70588237047195435
          },
          "enabled" : false
@@ -401,9 +393,8 @@
    "FakeLag" : {
       "enabled" : true
    },
-   "NameChanger" : {
-      "enabled" : false,
-      "last_blank" : false
+   "NoScopeBorder" : {
+      "enabled" : true
    },
    "NoSky" : {
       "color" : {
@@ -412,7 +403,7 @@
          "g" : 0,
          "r" : 0
       },
-      "enabled" : false
+      "enabled" : true
    },
    "Noflash" : {
       "enabled" : true,
@@ -713,27 +704,27 @@
          }
       },
       "bodyColor" : {
-         "a" : 0.94117653369903564,
-         "b" : 0.094117656350135803,
-         "g" : 0.094117656350135803,
-         "r" : 0.094117656350135803
+         "a" : 0.95477384328842163,
+         "b" : 0.29647940397262573,
+         "g" : 0.29647940397262573,
+         "r" : 0.2964823842048645
       },
       "fontColor" : {
          "a" : 1,
-         "b" : 1,
-         "g" : 1,
+         "b" : 0.99998998641967773,
+         "g" : 0.99998998641967773,
          "r" : 1
       },
       "mainColor" : {
          "a" : 1,
-         "b" : 0.42211055755615234,
-         "g" : 0.27362942695617676,
-         "r" : 0.28855174779891968
+         "b" : 0.66865158081054688,
+         "g" : 0.51475971937179565,
+         "r" : 0.67839193344116211
       }
    },
    "View" : {
       "NoPunch" : {
-         "enabled" : false
+         "enabled" : true
       }
    }
 }
