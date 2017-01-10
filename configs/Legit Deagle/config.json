@@ -50,6 +50,9 @@
          "enabled" : false,
          "value" : 2
       },
+      "SmokeCheck" : {
+         "enabled" : false
+      },
       "Smooth" : {
          "Salting" : {
             "enabled" : true,
@@ -91,9 +94,16 @@
    "AutoAccept" : {
       "enabled" : false
    },
+   "AutoDefuse" : {
+      "enabled" : false
+   },
    "AutoStrafe" : {
       "enabled" : true,
       "type" : 0
+   },
+   "Autoblock" : {
+      "enabled" : false,
+      "key" : 7
    },
    "BHop" : {
       "enabled" : true
@@ -133,7 +143,7 @@
             "enabled" : false,
             "type" : 0
          },
-         "players" : false,
+         "enabled" : true,
          "players_ally_color" : {
             "a" : 1,
             "b" : 0.65882354974746704,
@@ -158,8 +168,7 @@
             "g" : 0.62352943420410156,
             "r" : 0.95294123888015747
          },
-         "type" : 0,
-         "visibility_check" : false
+         "type" : 1
       },
       "FOVCrosshair" : {
          "color" : {
@@ -179,6 +188,7 @@
          "fishes" : false,
          "hostages" : false,
          "legit" : false,
+         "smoke_check" : false,
          "throwables" : false,
          "visibility_check" : false,
          "weapons" : false
@@ -228,6 +238,20 @@
             "r" : 0.78431379795074463
          }
       },
+      "Hitmarker" : {
+         "allies" : false,
+         "color" : {
+            "a" : 1,
+            "b" : 0.19607844948768616,
+            "g" : 0.19607844948768616,
+            "r" : 0.70588237047195435
+         },
+         "duration" : 2000,
+         "enabled" : false,
+         "enemies" : false,
+         "inner_gap" : 5,
+         "size" : 16
+      },
       "Info" : {
          "clan" : false,
          "defusing" : false,
@@ -236,7 +260,7 @@
          "has_defuser" : false,
          "health" : false,
          "location" : false,
-         "name" : false,
+         "name" : true,
          "planting" : false,
          "rank" : false,
          "reloading" : false,
@@ -386,6 +410,7 @@
    },
    "FOVChanger" : {
       "enabled" : false,
+      "ignore_scope" : true,
       "value" : 100,
       "viewmodel_enabled" : false,
       "viewmodel_value" : 90
@@ -405,12 +430,85 @@
       },
       "enabled" : false
    },
+   "NoSmoke" : {
+      "enabled" : false
+   },
    "Noflash" : {
       "enabled" : true,
       "value" : 160
    },
    "Radar" : {
-      "enabled" : false
+      "InGame" : {
+         "enabled" : false
+      },
+      "allies" : false,
+      "ally_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "ally_visible_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "bomb_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "bomb_defusing_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "ct_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "ct_visible_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "enabled" : false,
+      "enemies" : false,
+      "enemy_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "enemy_visible_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "icons_scale" : 4.5,
+      "legit" : false,
+      "smoke_check" : false,
+      "t_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "t_visible_color" : {
+         "a" : null,
+         "b" : null,
+         "g" : null,
+         "r" : null
+      },
+      "visibility_check" : false,
+      "zoom" : 16
    },
    "Recoilcrosshair" : {
       "enabled" : true,
@@ -683,13 +781,15 @@
          "enabled" : true,
          "value" : 25
       },
-      "Filter" : {
-         "arms" : false,
+      "Filters" : {
+         "allies" : false,
+         "arms" : true,
          "chest" : true,
-         "friendly" : false,
+         "enemies" : true,
          "head" : true,
-         "legs" : false,
-         "stomach" : false,
+         "legs" : true,
+         "smoke_check" : false,
+         "stomach" : true,
          "walls" : false
       },
       "enabled" : true,
