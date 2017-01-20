@@ -1993,9 +1993,9 @@
    "ClanTagChanger" : {
       "animation" : false,
       "animation_speed" : 234,
-      "enabled" : true,
+      "enabled" : false,
       "type" : 0,
-      "value" : "memes"
+      "value" : ""
    },
    "Dlights" : {
       "enabled" : false,

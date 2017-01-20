@@ -2124,9 +2124,9 @@
          "allies" : false,
          "color" : {
             "a" : 1,
-            "b" : 0.19607844948768616,
-            "g" : 0.19607844948768616,
-            "r" : 0.70588237047195435
+            "b" : 0.82685649394989014,
+            "g" : 0.075124390423297882,
+            "r" : 0.87939697504043579
          },
          "duration" : 2285,
          "enabled" : true,
@@ -2359,52 +2359,97 @@
       "enabled" : false
    },
    "Skinchanger" : {
-      "enabled" : false,
+      "enabled" : true,
       "skins" : {
          "WEAPON_AK47" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_AK47",
             "Model" : "",
-            "PaintKit" : 524,
-            "Seed" : 0,
+            "PaintKit" : 302,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_AUG" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_AUG",
+            "Model" : "",
+            "PaintKit" : 601,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_AWP" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_AWP",
             "Model" : "",
-            "PaintKit" : 344,
-            "Seed" : 0,
+            "PaintKit" : 279,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_BIZON" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_BIZON",
+            "Model" : "",
+            "PaintKit" : 306,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_CZ75A" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_CZ75A",
+            "Model" : "",
+            "PaintKit" : 322,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_DEAGLE" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_DEAGLE",
             "Model" : "",
-            "PaintKit" : 277,
-            "Seed" : 0,
+            "PaintKit" : 37,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_ELITE" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_ELITE",
             "Model" : "",
-            "PaintKit" : 249,
-            "Seed" : 0,
+            "PaintKit" : 447,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_FAMAS" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_FAMAS",
+            "Model" : "",
+            "PaintKit" : 529,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_FIVESEVEN" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_FIVESEVEN",
             "Model" : "",
-            "PaintKit" : 252,
-            "Seed" : 0,
+            "PaintKit" : 510,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_GALILAR" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_GALILAR",
+            "Model" : "",
+            "PaintKit" : 398,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_GLOCK" : {
             "CustomName" : "AimTux",
@@ -2415,14 +2460,23 @@
             "StatTrak" : 1337,
             "Wear" : 0.00050000002374872565
          },
+         "WEAPON_HKP2000" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_HKP2000",
+            "Model" : "",
+            "PaintKit" : 389,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
          "WEAPON_KNIFE" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "WEAPON_KNIFE_M9_BAYONET",
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "WEAPON_KNIFE_TACTICAL",
             "Model" : "",
             "PaintKit" : 417,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_KNIFE_BAYONET" : {
             "CustomName" : "",
@@ -2506,13 +2560,13 @@
             "Wear" : -1
          },
          "WEAPON_KNIFE_T" : {
-            "CustomName" : "AimTux",
+            "CustomName" : "",
             "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
             "Model" : "",
             "PaintKit" : 417,
-            "Seed" : 0,
-            "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_KNIFE_TACTICAL" : {
             "CustomName" : "",
@@ -2523,59 +2577,185 @@
             "StatTrak" : -1,
             "Wear" : -1
          },
-         "WEAPON_M4A1" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+         "WEAPON_M249" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_M249",
             "Model" : "",
-            "PaintKit" : 512,
-            "Seed" : 0,
+            "PaintKit" : 547,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_M4A1" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_M4A1",
+            "Model" : "",
+            "PaintKit" : 255,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_M4A1_SILENCER" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_M4A1_SILENCER",
             "Model" : "",
-            "PaintKit" : 548,
-            "Seed" : 0,
+            "PaintKit" : 360,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_MAC10" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_MAC10",
+            "Model" : "",
+            "PaintKit" : 310,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_MAG7" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_MAG7",
+            "Model" : "",
+            "PaintKit" : 535,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_MP7" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_MP7",
+            "Model" : "",
+            "PaintKit" : 481,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_MP9" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_MP9",
+            "Model" : "",
+            "PaintKit" : 39,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_NEGEV" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_NEGEV",
+            "Model" : "",
+            "PaintKit" : 514,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_NOVA" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_NOVA",
+            "Model" : "",
+            "PaintKit" : 286,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_P250" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_P250",
+            "Model" : "",
+            "PaintKit" : 551,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_P90" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_P90",
+            "Model" : "",
+            "PaintKit" : 359,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_REVOLVER" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_REVOLVER",
+            "Model" : "",
+            "PaintKit" : 522,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_SAWEDOFF" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_SAWEDOFF",
+            "Model" : "",
+            "PaintKit" : 256,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_SCAR20" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_SCAR20",
             "Model" : "",
-            "PaintKit" : 391,
-            "Seed" : 0,
+            "PaintKit" : 312,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_SG556" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_SG556",
+            "Model" : "",
+            "PaintKit" : 487,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_SSG08" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_SSG08",
             "Model" : "",
-            "PaintKit" : 319,
-            "Seed" : 0,
+            "PaintKit" : 624,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_TEC9" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_TEC9",
             "Model" : "",
-            "PaintKit" : 179,
-            "Seed" : 0,
+            "PaintKit" : 374,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_UMP45" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_UMP45",
+            "Model" : "",
+            "PaintKit" : 37,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
          },
          "WEAPON_USP_SILENCER" : {
-            "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_USP_SILENCER",
             "Model" : "",
-            "PaintKit" : 332,
-            "Seed" : 0,
+            "PaintKit" : 637,
+            "Seed" : -1,
             "StatTrak" : 1337,
-            "Wear" : 0.00050000002374872565
+            "Wear" : 0.004999999888241291
+         },
+         "WEAPON_XM1014" : {
+            "CustomName" : "DeathStroke",
+            "ItemDefinitionIndex" : "WEAPON_XM1014",
+            "Model" : "",
+            "PaintKit" : 393,
+            "Seed" : -1,
+            "StatTrak" : 1337,
+            "Wear" : 0.004999999888241291
          }
       }
    },
@@ -2642,21 +2822,21 @@
       },
       "bodyColor" : {
          "a" : 0.94117653369903564,
-         "b" : 0.094117656350135803,
-         "g" : 0.094117656350135803,
-         "r" : 0.094117656350135803
+         "b" : 0.080401211977005005,
+         "g" : 0.080401211977005005,
+         "r" : 0.080402016639709473
       },
       "fontColor" : {
          "a" : 1,
-         "b" : 1,
-         "g" : 1,
-         "r" : 1
+         "b" : 0.16545034945011139,
+         "g" : 0.16545034945011139,
+         "r" : 0.91457283496856689
       },
       "mainColor" : {
          "a" : 1,
-         "b" : 0.21176260709762573,
-         "g" : 0.21176260709762573,
-         "r" : 0.21176472306251526
+         "b" : 0.15577732026576996,
+         "g" : 0.15577732026576996,
+         "r" : 0.15577888488769531
       }
    },
    "View" : {
