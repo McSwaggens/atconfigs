@@ -9,6 +9,12 @@
       "enabled" : false
    },
    "Aimbot" : {
+      "AutoCrouch" : {
+         "enabled" : false
+      },
+      "AutoStop" : {
+         "enabled" : false
+      },
       "weapons" : {
          "ITEM_INVALID" : {
             "AimKey" : "MOUSE3",
@@ -19,7 +25,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180
+               "FOV" : 180,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -49,7 +56,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 0,
+               "AmountY" : 0,
                "Enabled" : true
             },
             "Silent" : true,
@@ -76,7 +84,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -106,7 +115,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -133,7 +143,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -163,7 +174,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -190,7 +202,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : false
@@ -202,9 +215,9 @@
                "Enabled" : false
             },
             "AutoWall" : {
-               "Bones" : [ false, false, true, true, true, true ],
+               "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
-               "Value" : 0.0010000000474974513
+               "Value" : 0
             },
             "Enabled" : true,
             "ErrorMargin" : {
@@ -220,7 +233,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -247,7 +261,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -277,7 +292,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -304,7 +320,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -334,7 +351,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -361,21 +379,22 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
-               "Enabled" : true
+               "Enabled" : false
             },
             "AutoScope" : {
                "Enabled" : false
             },
             "AutoShoot" : {
-               "Enabled" : true
+               "Enabled" : false
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
-               "Value" : 0.0010000000474974513
+               "Value" : 0
             },
             "Enabled" : true,
             "ErrorMargin" : {
@@ -391,7 +410,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -418,7 +438,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -448,7 +469,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -475,7 +497,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -505,7 +528,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -532,7 +556,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -562,7 +587,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -589,7 +615,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -619,7 +646,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -646,7 +674,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -676,7 +705,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -703,7 +733,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -733,7 +764,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -760,7 +792,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -790,7 +823,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -817,7 +851,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -847,7 +882,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -874,7 +910,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -904,7 +941,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -931,7 +969,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -961,7 +1000,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -988,7 +1028,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1018,7 +1059,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1045,7 +1087,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1075,7 +1118,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1102,7 +1146,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1132,7 +1177,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1159,7 +1205,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1189,7 +1236,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1216,7 +1264,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1246,7 +1295,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1273,7 +1323,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1303,7 +1354,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1330,7 +1382,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1360,7 +1413,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1387,7 +1441,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1417,7 +1472,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1444,7 +1500,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1474,7 +1531,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1501,7 +1559,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1531,7 +1590,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1558,7 +1618,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1588,7 +1649,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1615,7 +1677,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1645,7 +1708,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1672,7 +1736,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : false
@@ -1684,9 +1749,9 @@
                "Enabled" : false
             },
             "AutoWall" : {
-               "Bones" : [ true, true, true, true, true, true ],
+               "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : true,
-               "Value" : 0.0010000000474974513
+               "Value" : 0
             },
             "Enabled" : true,
             "ErrorMargin" : {
@@ -1702,7 +1767,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1729,7 +1795,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1759,7 +1826,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1786,7 +1854,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1816,7 +1885,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1843,7 +1913,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1873,7 +1944,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1900,7 +1972,8 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 180.00001525878906
+               "FOV" : 180.00001525878906,
+               "RealDistance" : false
             },
             "AutoPistol" : {
                "Enabled" : true
@@ -1930,7 +2003,8 @@
             },
             "RCS" : {
                "AlwaysOn" : true,
-               "Amount" : 2,
+               "AmountX" : 2,
+               "AmountY" : 2,
                "Enabled" : true
             },
             "Silent" : true,
@@ -1969,7 +2043,7 @@
       },
       "Yaw" : {
          "enabled" : true,
-         "type" : 3,
+         "type" : 1,
          "type_fake" : 4
       }
    },
@@ -1981,6 +2055,7 @@
    },
    "AutoStrafe" : {
       "enabled" : true,
+      "silent" : true,
       "type" : 0
    },
    "Autoblock" : {
@@ -2026,6 +2101,10 @@
             "type" : 1
          },
          "enabled" : true,
+         "hp_ally_color" : false,
+         "hp_ally_visible_color" : false,
+         "hp_enemy_color" : false,
+         "hp_enemy_visible_color" : false,
          "players_ally_color" : {
             "a" : 1,
             "b" : 0.65882354974746704,
@@ -2113,6 +2192,9 @@
             "g" : 0,
             "r" : 0.78431379795074463
          },
+         "hp_ally_color" : false,
+         "hp_enemy_color" : false,
+         "hp_enemy_visible_color" : false,
          "weapon_color" : {
             "a" : 0.78431379795074463,
             "b" : 0.19607844948768616,
@@ -2120,7 +2202,14 @@
             "r" : 0.78431379795074463
          }
       },
+      "Headdot" : {
+         "enabled" : false,
+         "size" : 2
+      },
       "Hitmarker" : {
+         "Damage" : {
+            "enabled" : false
+         },
          "allies" : false,
          "color" : {
             "a" : 1,
@@ -2259,6 +2348,14 @@
          "g" : 0.18823531270027161,
          "r" : 0.9490196704864502
       },
+      "hp_ally_color" : false,
+      "hp_ally_visible_color" : false,
+      "hp_ct_color" : false,
+      "hp_ct_visible_color" : false,
+      "hp_enemy_color" : false,
+      "hp_enemy_visible_color" : false,
+      "hp_t_color" : false,
+      "hp_t_visible_color" : false,
       "molotov_color" : {
          "a" : 1,
          "b" : 0.086274512112140656,
@@ -2290,6 +2387,10 @@
          "r" : 1
       }
    },
+   "EdgeJump" : {
+      "enabled" : false,
+      "key" : "c"
+   },
    "FOVChanger" : {
       "enabled" : true,
       "ignore_scope" : true,
@@ -2298,10 +2399,15 @@
       "viewmodel_value" : 113.50100708007812
    },
    "FakeLag" : {
-      "enabled" : false
+      "enabled" : false,
+      "value" : 5
+   },
+   "NameStealer" : {
+      "enabled" : false,
+      "team" : 1
    },
    "NoScopeBorder" : {
-      "enabled" : false
+      "enabled" : true
    },
    "NoSky" : {
       "color" : {
@@ -2324,21 +2430,79 @@
          "enabled" : false
       },
       "allies" : false,
-      "ally_color" : null,
-      "ally_visible_color" : null,
-      "bomb_color" : null,
-      "bomb_defusing_color" : null,
-      "ct_color" : null,
-      "ct_visible_color" : null,
+      "ally_color" : {
+         "a" : 1,
+         "b" : 0.75294125080108643,
+         "g" : 0.25098040699958801,
+         "r" : 0.12549020349979401
+      },
+      "ally_visible_color" : {
+         "a" : 1,
+         "b" : 0.75294125080108643,
+         "g" : 0.25098040699958801,
+         "r" : 0.12549020349979401
+      },
+      "bomb_color" : {
+         "a" : 1,
+         "b" : 0.25098040699958801,
+         "g" : 0.75294125080108643,
+         "r" : 0.75294125080108643
+      },
+      "bomb_defusing_color" : {
+         "a" : 1,
+         "b" : 0.25098040699958801,
+         "g" : 0.75294125080108643,
+         "r" : 0.75294125080108643
+      },
+      "ct_color" : {
+         "a" : 1,
+         "b" : 0.75294125080108643,
+         "g" : 0.50196081399917603,
+         "r" : 0.25098040699958801
+      },
+      "ct_visible_color" : {
+         "a" : 1,
+         "b" : 0.75294125080108643,
+         "g" : 0.50196081399917603,
+         "r" : 0.25098040699958801
+      },
       "enabled" : false,
       "enemies" : true,
-      "enemy_color" : null,
-      "enemy_visible_color" : null,
+      "enemy_color" : {
+         "a" : 1,
+         "b" : 0.12549020349979401,
+         "g" : 0.12549020349979401,
+         "r" : 0.75294125080108643
+      },
+      "enemy_visible_color" : {
+         "a" : 1,
+         "b" : 0.12549020349979401,
+         "g" : 0.12549020349979401,
+         "r" : 0.75294125080108643
+      },
+      "hp_ally_color" : false,
+      "hp_ally_visible_color" : false,
+      "hp_ct_color" : false,
+      "hp_ct_visible_color" : false,
+      "hp_enemy_color" : false,
+      "hp_enemy_visible_color" : false,
+      "hp_t_color" : false,
+      "hp_t_visible_color" : false,
       "icons_scale" : 16,
       "legit" : false,
       "smoke_check" : false,
-      "t_color" : null,
-      "t_visible_color" : null,
+      "t_color" : {
+         "a" : 1,
+         "b" : 0.25098040699958801,
+         "g" : 0.50196081399917603,
+         "r" : 0.75294125080108643
+      },
+      "t_visible_color" : {
+         "a" : 1,
+         "b" : 0.25098040699958801,
+         "g" : 0.50196081399917603,
+         "r" : 0.75294125080108643
+      },
       "visibility_check" : false,
       "zoom" : 1
    },
@@ -2359,12 +2523,14 @@
       "enabled" : false
    },
    "Skinchanger" : {
+      "Gloves" : {
+         "enabled" : false
+      },
       "enabled" : true,
       "skins" : {
          "WEAPON_AK47" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_AK47",
-            "Model" : "",
             "PaintKit" : 302,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2373,7 +2539,6 @@
          "WEAPON_AUG" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_AUG",
-            "Model" : "",
             "PaintKit" : 601,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2382,7 +2547,6 @@
          "WEAPON_AWP" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_AWP",
-            "Model" : "",
             "PaintKit" : 279,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2391,7 +2555,6 @@
          "WEAPON_BIZON" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_BIZON",
-            "Model" : "",
             "PaintKit" : 306,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2400,7 +2563,6 @@
          "WEAPON_CZ75A" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_CZ75A",
-            "Model" : "",
             "PaintKit" : 322,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2409,7 +2571,6 @@
          "WEAPON_DEAGLE" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_DEAGLE",
-            "Model" : "",
             "PaintKit" : 37,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2418,7 +2579,6 @@
          "WEAPON_ELITE" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_ELITE",
-            "Model" : "",
             "PaintKit" : 447,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2427,7 +2587,6 @@
          "WEAPON_FAMAS" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_FAMAS",
-            "Model" : "",
             "PaintKit" : 529,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2436,7 +2595,6 @@
          "WEAPON_FIVESEVEN" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_FIVESEVEN",
-            "Model" : "",
             "PaintKit" : 510,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2445,7 +2603,6 @@
          "WEAPON_GALILAR" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_GALILAR",
-            "Model" : "",
             "PaintKit" : 398,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2453,8 +2610,7 @@
          },
          "WEAPON_GLOCK" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : 38,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2463,7 +2619,6 @@
          "WEAPON_HKP2000" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_HKP2000",
-            "Model" : "",
             "PaintKit" : 389,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2472,7 +2627,6 @@
          "WEAPON_KNIFE" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "WEAPON_KNIFE_TACTICAL",
-            "Model" : "",
             "PaintKit" : 417,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2480,8 +2634,7 @@
          },
          "WEAPON_KNIFE_BAYONET" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_bayonet.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2489,8 +2642,7 @@
          },
          "WEAPON_KNIFE_BUTTERFLY" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_butterfly.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2498,8 +2650,7 @@
          },
          "WEAPON_KNIFE_FALCHION" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_falchion_advanced.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2507,8 +2658,7 @@
          },
          "WEAPON_KNIFE_FLIP" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_flip.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2516,8 +2666,7 @@
          },
          "WEAPON_KNIFE_GUT" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_gut.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2525,8 +2674,7 @@
          },
          "WEAPON_KNIFE_KARAMBIT" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_karam.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2534,8 +2682,7 @@
          },
          "WEAPON_KNIFE_M9_BAYONET" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_m9_bay.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2543,8 +2690,7 @@
          },
          "WEAPON_KNIFE_PUSH" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_push.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2552,8 +2698,7 @@
          },
          "WEAPON_KNIFE_SURVIVAL_BOWIE" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_survival_bowie.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2562,7 +2707,6 @@
          "WEAPON_KNIFE_T" : {
             "CustomName" : "",
             "ItemDefinitionIndex" : "WEAPON_KNIFE_KARAMBIT",
-            "Model" : "",
             "PaintKit" : 417,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2570,8 +2714,7 @@
          },
          "WEAPON_KNIFE_TACTICAL" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "ITEM_INVALID",
-            "Model" : "models/weapons/v_knife_tactical.mdl",
+            "ItemDefinitionIndex" : "INVALID",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2580,7 +2723,6 @@
          "WEAPON_M249" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_M249",
-            "Model" : "",
             "PaintKit" : 547,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2589,7 +2731,6 @@
          "WEAPON_M4A1" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_M4A1",
-            "Model" : "",
             "PaintKit" : 255,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2598,7 +2739,6 @@
          "WEAPON_M4A1_SILENCER" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_M4A1_SILENCER",
-            "Model" : "",
             "PaintKit" : 360,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2607,7 +2747,6 @@
          "WEAPON_MAC10" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_MAC10",
-            "Model" : "",
             "PaintKit" : 310,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2616,7 +2755,6 @@
          "WEAPON_MAG7" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_MAG7",
-            "Model" : "",
             "PaintKit" : 535,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2625,7 +2763,6 @@
          "WEAPON_MP7" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_MP7",
-            "Model" : "",
             "PaintKit" : 481,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2634,7 +2771,6 @@
          "WEAPON_MP9" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_MP9",
-            "Model" : "",
             "PaintKit" : 39,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2643,7 +2779,6 @@
          "WEAPON_NEGEV" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_NEGEV",
-            "Model" : "",
             "PaintKit" : 514,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2652,7 +2787,6 @@
          "WEAPON_NOVA" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_NOVA",
-            "Model" : "",
             "PaintKit" : 286,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2661,7 +2795,6 @@
          "WEAPON_P250" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_P250",
-            "Model" : "",
             "PaintKit" : 551,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2670,7 +2803,6 @@
          "WEAPON_P90" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_P90",
-            "Model" : "",
             "PaintKit" : 359,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2679,7 +2811,6 @@
          "WEAPON_REVOLVER" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_REVOLVER",
-            "Model" : "",
             "PaintKit" : 522,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2688,7 +2819,6 @@
          "WEAPON_SAWEDOFF" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_SAWEDOFF",
-            "Model" : "",
             "PaintKit" : 256,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2697,7 +2827,6 @@
          "WEAPON_SCAR20" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_SCAR20",
-            "Model" : "",
             "PaintKit" : 312,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2706,7 +2835,6 @@
          "WEAPON_SG556" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_SG556",
-            "Model" : "",
             "PaintKit" : 487,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2715,7 +2843,6 @@
          "WEAPON_SSG08" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_SSG08",
-            "Model" : "",
             "PaintKit" : 624,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2724,7 +2851,6 @@
          "WEAPON_TEC9" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_TEC9",
-            "Model" : "",
             "PaintKit" : 374,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2733,7 +2859,6 @@
          "WEAPON_UMP45" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_UMP45",
-            "Model" : "",
             "PaintKit" : 37,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2742,7 +2867,6 @@
          "WEAPON_USP_SILENCER" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_USP_SILENCER",
-            "Model" : "",
             "PaintKit" : 637,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2751,7 +2875,6 @@
          "WEAPON_XM1014" : {
             "CustomName" : "DeathStroke",
             "ItemDefinitionIndex" : "WEAPON_XM1014",
-            "Model" : "",
             "PaintKit" : 393,
             "Seed" : -1,
             "StatTrak" : 1337,
@@ -2761,8 +2884,8 @@
    },
    "Spammer" : {
       "KillSpammer" : {
-         "enabled" : true,
-         "message" : "$nick should go get AimTux.net!",
+         "enabled" : false,
+         "message" : "lola loves the scout cock",
          "say_team" : false
       },
       "NormalSpammer" : {
@@ -2787,7 +2910,7 @@
          "show_wins" : true
       },
       "say_team" : false,
-      "spammer_type" : 1
+      "spammer_type" : 0
    },
    "Teleport" : {
       "enabled" : false,
