@@ -2,9 +2,9 @@
    "ASUSWalls" : {
       "color" : {
          "a" : 1,
-         "b" : 0,
-         "g" : 0.12060302495956421,
-         "r" : 1
+         "b" : 1,
+         "g" : 0.41266846656799316,
+         "r" : 0
       },
       "enabled" : true
    },
@@ -2034,7 +2034,7 @@
          "no_enemy" : false
       },
       "HeadEdge" : {
-         "distance" : 25,
+         "distance" : 22,
          "enabled" : true
       },
       "Pitch" : {
@@ -2043,8 +2043,8 @@
       },
       "Yaw" : {
          "enabled" : true,
-         "type" : 6,
-         "type_fake" : 7
+         "type" : 9,
+         "type_fake" : 10
       }
    },
    "AutoAccept" : {
@@ -2424,13 +2424,13 @@
    },
    "FOVChanger" : {
       "enabled" : true,
-      "ignore_scope" : false,
+      "ignore_scope" : true,
       "value" : 100.27000427246094,
       "viewmodel_enabled" : true,
       "viewmodel_value" : 113.50100708007812
    },
    "FakeLag" : {
-      "enabled" : true,
+      "enabled" : false,
       "value" : 10
    },
    "NameStealer" : {
@@ -2952,7 +2952,7 @@
    },
    "ThirdPerson" : {
       "distance" : 133,
-      "enabled" : true
+      "enabled" : false
    },
    "Triggerbot" : {
       "Delay" : {

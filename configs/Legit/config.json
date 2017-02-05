@@ -84,7 +84,7 @@
             },
             "AutoAim" : {
                "Enabled" : true,
-               "FOV" : 10.580000877380371,
+               "FOV" : 6.6750001907348633,
                "RealDistance" : false
             },
             "AutoPistol" : {
@@ -116,7 +116,7 @@
             "RCS" : {
                "AlwaysOn" : false,
                "AmountX" : 2,
-               "AmountY" : 2,
+               "AmountY" : 0.8330000638961792,
                "Enabled" : true
             },
             "Silent" : false,
@@ -124,11 +124,11 @@
                "Enabled" : false
             },
             "Smooth" : {
-               "Amount" : 0.83600002527236938,
+               "Amount" : 0.87900006771087646,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
-                  "Multiplier" : 0.084000006318092346
+                  "Multiplier" : 0.060000002384185791
                },
                "Type" : 0
             },
@@ -419,13 +419,13 @@
                "Enabled" : false
             },
             "Smooth" : {
-               "Amount" : 0.87000006437301636,
+               "Amount" : 0.89400005340576172,
                "Enabled" : true,
                "Salting" : {
                   "Enabled" : true,
-                  "Multiplier" : 0.078000001609325409
+                  "Multiplier" : 0.040000002831220627
                },
-               "Type" : 1
+               "Type" : 0
             },
             "TargetBone" : 8
          },
@@ -2425,9 +2425,9 @@
    "FOVChanger" : {
       "enabled" : false,
       "ignore_scope" : true,
-      "value" : 100,
-      "viewmodel_enabled" : false,
-      "viewmodel_value" : 90
+      "value" : 94.668006896972656,
+      "viewmodel_enabled" : true,
+      "viewmodel_value" : 72.075004577636719
    },
    "FakeLag" : {
       "enabled" : false,
@@ -2555,7 +2555,7 @@
    },
    "Skinchanger" : {
       "Gloves" : {
-         "enabled" : false
+         "enabled" : true
       },
       "enabled" : true,
       "skins" : {
@@ -2750,6 +2750,14 @@
             "Seed" : 0,
             "StatTrak" : 1337,
             "Wear" : 0.00050000002374872565
+         },
+         "t_gloves" : {
+            "CustomName" : "",
+            "ItemDefinitionIndex" : "studded_bloodhound_gloves",
+            "PaintKit" : 10007,
+            "Seed" : -1,
+            "StatTrak" : -1,
+            "Wear" : 0.004999999888241291
          }
       }
    },
