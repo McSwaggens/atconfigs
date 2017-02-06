@@ -3,16 +3,13 @@
       "color" : {
          "a" : 1,
          "b" : 1,
-         "g" : 0.41266846656799316,
-         "r" : 0
+         "g" : 0.48758643865585327,
+         "r" : 0.12562811374664307
       },
       "enabled" : true
    },
    "Aimbot" : {
       "AutoCrouch" : {
-         "enabled" : false
-      },
-      "AutoStop" : {
          "enabled" : false
       },
       "weapons" : {
@@ -36,6 +33,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -96,6 +97,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -154,6 +159,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -214,6 +223,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -272,6 +285,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -332,6 +349,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -390,6 +411,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -450,6 +475,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : true,
@@ -508,6 +537,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -568,6 +601,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -626,6 +663,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -686,6 +727,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -744,6 +789,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -804,6 +853,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -862,6 +915,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -922,6 +979,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -980,6 +1041,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -1040,6 +1105,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -1098,6 +1167,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -1158,6 +1231,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -1216,6 +1293,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -1276,6 +1357,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -1334,6 +1419,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -1394,6 +1483,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -1452,6 +1545,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -1512,6 +1609,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -1570,6 +1671,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -1630,6 +1735,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -1688,6 +1797,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -1748,6 +1861,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : true,
+               "minDamage" : 4.8530001640319824
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : true,
@@ -1806,6 +1923,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
@@ -1866,6 +1987,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -1925,6 +2050,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, true ],
                "Enabled" : true,
@@ -1983,6 +2112,10 @@
             },
             "AutoShoot" : {
                "Enabled" : true
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, true, true, true, false ],
@@ -2424,14 +2557,14 @@
    },
    "FOVChanger" : {
       "enabled" : true,
-      "ignore_scope" : true,
+      "ignore_scope" : false,
       "value" : 100.27000427246094,
       "viewmodel_enabled" : true,
       "viewmodel_value" : 113.50100708007812
    },
    "FakeLag" : {
       "enabled" : false,
-      "value" : 10
+      "value" : 16
    },
    "NameStealer" : {
       "enabled" : false,
@@ -2918,8 +3051,8 @@
    },
    "Spammer" : {
       "KillSpammer" : {
-         "enabled" : false,
-         "message" : "lola loves the scout cock",
+         "enabled" : true,
+         "message" : "$nick just got NUTTED by AIMTUX",
          "say_team" : false
       },
       "NormalSpammer" : {
@@ -2952,7 +3085,7 @@
    },
    "ThirdPerson" : {
       "distance" : 133,
-      "enabled" : false
+      "enabled" : true
    },
    "Triggerbot" : {
       "Delay" : {
