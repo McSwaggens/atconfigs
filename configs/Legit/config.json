@@ -12,9 +12,6 @@
       "AutoCrouch" : {
          "enabled" : false
       },
-      "AutoStop" : {
-         "enabled" : false
-      },
       "weapons" : {
          "ITEM_INVALID" : {
             "AimKey" : "MOUSE3",
@@ -36,6 +33,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -96,6 +97,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ false, false, false, false, false, false ],
                "Enabled" : false,
@@ -154,6 +159,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -214,6 +223,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -272,6 +285,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -332,6 +349,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -390,6 +411,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -450,6 +475,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -508,6 +537,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -568,6 +601,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -626,6 +663,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -686,6 +727,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -744,6 +789,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -804,6 +853,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -862,6 +915,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -922,6 +979,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -980,6 +1041,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -1040,6 +1105,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -1098,6 +1167,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -1158,6 +1231,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -1216,6 +1293,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -1276,6 +1357,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -1334,6 +1419,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -1394,6 +1483,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -1452,6 +1545,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -1512,6 +1609,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -1570,6 +1671,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -1630,6 +1735,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -1688,6 +1797,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -1748,6 +1861,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -1806,6 +1923,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -1866,6 +1987,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -1925,6 +2050,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
                "Enabled" : false,
@@ -1983,6 +2112,10 @@
             },
             "AutoShoot" : {
                "Enabled" : false
+            },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
             },
             "AutoWall" : {
                "Bones" : [ true, false, false, false, false, false ],
@@ -2079,7 +2212,7 @@
    "ESP" : {
       "Bars" : {
          "color_type" : 1,
-         "enabled" : true,
+         "enabled" : false,
          "type" : 2
       },
       "Boxes" : {
@@ -2109,7 +2242,7 @@
             },
             "enabled" : false
          },
-         "enabled" : true,
+         "enabled" : false,
          "hp_ally_color" : false,
          "hp_ally_visible_color" : false,
          "hp_enemy_color" : false,
@@ -2149,7 +2282,7 @@
       },
       "FOVCrosshair" : {
          "color" : {
-            "a" : 1,
+            "a" : 0.23618090152740479,
             "b" : 0.19607849419116974,
             "g" : 0.19607849419116974,
             "r" : 0.70588237047195435
@@ -2227,8 +2360,8 @@
          }
       },
       "HeadDot" : {
-         "enabled" : false,
-         "size" : 2
+         "enabled" : true,
+         "size" : 1.7120001316070557
       },
       "Hitmarker" : {
          "Damage" : {
@@ -2237,13 +2370,13 @@
          "allies" : false,
          "color" : {
             "a" : 1,
-            "b" : 0.19607844948768616,
-            "g" : 0.19607844948768616,
+            "b" : 0.19607849419116974,
+            "g" : 0.19607849419116974,
             "r" : 0.70588237047195435
          },
          "duration" : 2000,
-         "enabled" : false,
-         "enemies" : false,
+         "enabled" : true,
+         "enemies" : true,
          "inner_gap" : 5,
          "size" : 16
       },
@@ -2255,7 +2388,7 @@
          "has_defuser" : false,
          "health" : false,
          "location" : false,
-         "name" : true,
+         "name" : false,
          "planting" : false,
          "rank" : false,
          "reloading" : false,
@@ -2443,17 +2576,17 @@
    "NoSky" : {
       "color" : {
          "a" : 1,
-         "b" : 0,
-         "g" : 0,
-         "r" : 0
+         "b" : 0.99998998641967773,
+         "g" : 0.99998998641967773,
+         "r" : 1
       },
-      "enabled" : true
+      "enabled" : false
    },
    "NoSmoke" : {
       "enabled" : false
    },
    "Noflash" : {
-      "enabled" : true,
+      "enabled" : false,
       "value" : 160
    },
    "Radar" : {
@@ -2538,8 +2671,8 @@
       "zoom" : 16
    },
    "Recoilcrosshair" : {
-      "enabled" : true,
-      "showOnlyWhenShooting" : true
+      "enabled" : false,
+      "showOnlyWhenShooting" : false
    },
    "Resolver" : {
       "resolve_all" : false
@@ -2828,22 +2961,22 @@
          }
       },
       "bodyColor" : {
-         "a" : 0.92462313175201416,
+         "a" : 0.85929650068283081,
+         "b" : 0.91958880424499512,
+         "g" : 0.91958880424499512,
+         "r" : 0.91959798336029053
+      },
+      "fontColor" : {
+         "a" : 1,
          "b" : 9.9998999303352321e-07,
          "g" : 9.9998999303352321e-07,
          "r" : 9.9999999747524271e-07
       },
-      "fontColor" : {
-         "a" : 1,
-         "b" : 0.15577888488769531,
-         "g" : 0.15577888488769531,
-         "r" : 1
-      },
       "mainColor" : {
          "a" : 1,
-         "b" : 0.25125378370285034,
-         "g" : 0.25125592947006226,
-         "r" : 0.25125628709793091
+         "b" : 0.75879395008087158,
+         "g" : 0.49569442868232727,
+         "r" : 0
       }
    },
    "View" : {

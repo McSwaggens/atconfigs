@@ -12,9 +12,6 @@
       "AutoCrouch" : {
          "enabled" : false
       },
-      "AutoStop" : {
-         "enabled" : true
-      },
       "weapons" : {
          "ITEM_INVALID" : {
             "AimKey" : "MOUSE3",
@@ -37,6 +34,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -47,12 +48,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -96,6 +103,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -106,12 +117,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -155,6 +172,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -165,12 +186,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -214,6 +241,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -224,12 +255,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -273,6 +310,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -283,12 +324,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -332,6 +379,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -342,12 +393,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -391,6 +448,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -401,12 +462,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -450,6 +517,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -460,12 +531,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -509,6 +586,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -519,12 +600,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -568,6 +655,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -578,12 +669,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -627,6 +724,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -637,12 +738,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -686,6 +793,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -696,12 +807,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -745,6 +862,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -755,12 +876,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -804,6 +931,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -814,12 +945,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -863,6 +1000,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -873,12 +1014,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -922,6 +1069,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -932,12 +1083,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -981,6 +1138,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -991,12 +1152,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1040,6 +1207,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1050,12 +1221,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1099,6 +1276,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1109,12 +1290,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1158,6 +1345,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1168,12 +1359,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1217,6 +1414,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1227,12 +1428,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1276,6 +1483,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1286,12 +1497,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1335,6 +1552,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1345,12 +1566,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1394,6 +1621,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1404,12 +1635,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1453,6 +1690,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1463,12 +1704,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1512,6 +1759,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1522,12 +1773,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1571,6 +1828,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1581,12 +1842,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1630,6 +1897,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1640,12 +1911,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1689,6 +1966,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1699,12 +1980,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1748,6 +2035,10 @@
             "AutoShoot" : {
                "Enabled" : false
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : true,
@@ -1758,12 +2049,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1807,6 +2104,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1817,12 +2118,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1866,6 +2173,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1876,12 +2187,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1925,6 +2242,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1935,12 +2256,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -1984,6 +2311,10 @@
             "AutoShoot" : {
                "Enabled" : true
             },
+            "AutoSlow" : {
+               "enabled" : false,
+               "minDamage" : 0
+            },
             "AutoWall" : {
                "Bones" : [ true, true, true, true, true, false ],
                "Enabled" : false,
@@ -1994,12 +2325,18 @@
                "Enabled" : false,
                "Value" : 0
             },
+            "FlashCheck" : {
+               "Enabled" : false
+            },
             "Friendly" : false,
             "IgnoreJump" : {
                "Enabled" : false
             },
             "NoShoot" : {
                "Enabled" : false
+            },
+            "Prediction" : {
+               "enabled" : false
             },
             "RCS" : {
                "AlwaysOn" : true,
@@ -2042,6 +2379,7 @@
          "type" : 1
       },
       "Yaw" : {
+         "antiResolver" : false,
          "enabled" : false,
          "type" : 1,
          "type_fake" : 1
@@ -2100,11 +2438,27 @@
             "enabled" : true,
             "type" : 1
          },
+         "Weapon" : {
+            "color" : {
+               "a" : 1,
+               "b" : 0.19332849979400635,
+               "g" : 0,
+               "r" : 0.58291459083557129
+            },
+            "enabled" : true
+         },
          "enabled" : true,
          "hp_ally_color" : false,
          "hp_ally_visible_color" : false,
          "hp_enemy_color" : false,
          "hp_enemy_visible_color" : false,
+         "hp_localplayer_color" : false,
+         "localplayer_color" : {
+            "a" : 1,
+            "b" : 0.28627452254295349,
+            "g" : 0.16862745583057404,
+            "r" : 0.458823561668396
+         },
          "players_ally_color" : {
             "a" : 1,
             "b" : 0.65882354974746704,
@@ -2149,6 +2503,7 @@
          "fishes" : false,
          "hostages" : false,
          "legit" : false,
+         "localplayer" : false,
          "smoke_check" : false,
          "throwables" : true,
          "visibility_check" : false,
@@ -2195,6 +2550,13 @@
          "hp_ally_color" : false,
          "hp_enemy_color" : false,
          "hp_enemy_visible_color" : false,
+         "hp_localplayer_color" : false,
+         "localplayer_color" : {
+            "a" : 0.78431379795074463,
+            "b" : 0.28627452254295349,
+            "g" : 0.16862745583057404,
+            "r" : 0.458823561668396
+         },
          "weapon_color" : {
             "a" : 0.78431379795074463,
             "b" : 0.19607844948768616,
@@ -2202,9 +2564,9 @@
             "r" : 0.78431379795074463
          }
       },
-      "Headdot" : {
-         "enabled" : false,
-         "size" : 2
+      "HeadDot" : {
+         "enabled" : true,
+         "size" : 5.2250003814697266
       },
       "Hitmarker" : {
          "Damage" : {
@@ -2354,8 +2716,15 @@
       "hp_ct_visible_color" : false,
       "hp_enemy_color" : false,
       "hp_enemy_visible_color" : false,
+      "hp_localplayer_color" : false,
       "hp_t_color" : false,
       "hp_t_visible_color" : false,
+      "localplayer_color" : {
+         "a" : 1,
+         "b" : 0.28627452254295349,
+         "g" : 0.16862745583057404,
+         "r" : 0.458823561668396
+      },
       "molotov_color" : {
          "a" : 1,
          "b" : 0.086274512112140656,
@@ -2401,6 +2770,10 @@
    "FakeLag" : {
       "enabled" : false,
       "value" : 5
+   },
+   "JumpThrow" : {
+      "enabled" : false,
+      "key" : "t"
    },
    "NameStealer" : {
       "enabled" : true,
@@ -2538,7 +2911,7 @@
          },
          "WEAPON_AWP" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 344,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2546,7 +2919,7 @@
          },
          "WEAPON_DEAGLE" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 277,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2554,7 +2927,7 @@
          },
          "WEAPON_ELITE" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 249,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2562,7 +2935,7 @@
          },
          "WEAPON_FIVESEVEN" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 252,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2570,7 +2943,7 @@
          },
          "WEAPON_GLOCK" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 38,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2586,7 +2959,7 @@
          },
          "WEAPON_KNIFE_BAYONET" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2594,7 +2967,7 @@
          },
          "WEAPON_KNIFE_BUTTERFLY" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2602,7 +2975,7 @@
          },
          "WEAPON_KNIFE_FALCHION" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2610,7 +2983,7 @@
          },
          "WEAPON_KNIFE_FLIP" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2618,7 +2991,7 @@
          },
          "WEAPON_KNIFE_GUT" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2626,7 +2999,7 @@
          },
          "WEAPON_KNIFE_KARAMBIT" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2634,7 +3007,7 @@
          },
          "WEAPON_KNIFE_M9_BAYONET" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2642,7 +3015,7 @@
          },
          "WEAPON_KNIFE_PUSH" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2650,7 +3023,7 @@
          },
          "WEAPON_KNIFE_SURVIVAL_BOWIE" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2666,7 +3039,7 @@
          },
          "WEAPON_KNIFE_TACTICAL" : {
             "CustomName" : "",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : -1,
             "Seed" : -1,
             "StatTrak" : -1,
@@ -2674,7 +3047,7 @@
          },
          "WEAPON_M4A1" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 512,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2682,7 +3055,7 @@
          },
          "WEAPON_M4A1_SILENCER" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 548,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2690,7 +3063,7 @@
          },
          "WEAPON_SCAR20" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 391,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2698,7 +3071,7 @@
          },
          "WEAPON_SSG08" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 319,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2706,7 +3079,7 @@
          },
          "WEAPON_TEC9" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 179,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2714,7 +3087,7 @@
          },
          "WEAPON_USP_SILENCER" : {
             "CustomName" : "AimTux",
-            "ItemDefinitionIndex" : "INVALID",
+            "ItemDefinitionIndex" : "",
             "PaintKit" : 332,
             "Seed" : 0,
             "StatTrak" : 1337,
@@ -2722,10 +3095,13 @@
          }
       }
    },
+   "SniperCrosshair" : {
+      "enabled" : true
+   },
    "Spammer" : {
       "KillSpammer" : {
          "enabled" : false,
-         "message" : "$nick just got OWNED by AimTux!!",
+         "messages" : [ "$nick just got owned by AimTux", "$nick watches anime" ],
          "say_team" : false
       },
       "NormalSpammer" : {
@@ -2754,6 +3130,10 @@
       "enabled" : false,
       "key" : 82
    },
+   "ThirdPerson" : {
+      "distance" : 133,
+      "enabled" : true
+   },
    "Triggerbot" : {
       "Delay" : {
          "enabled" : true,
@@ -2764,6 +3144,7 @@
          "arms" : false,
          "chest" : true,
          "enemies" : true,
+         "flash_check" : false,
          "head" : true,
          "legs" : false,
          "smoke_check" : false,
